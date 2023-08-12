@@ -1,0 +1,70 @@
+App Name	Administracion de Prestamos	
+App Version	2008-03-13 09:04:21	
+Setup Version	3.0.0.0	
+Frame Bitmap		
+Frame Caption	Administracion de Prestamos Instalar	
+Dialog Caption Base	Administracion de Prestamos	
+Usage String	Uso:  InstalaciÛn	
+About Box String	IPSIDATA 2008\npor Jorge Nieto\n\nEsta instalaciÛn se ha creado mediante el Asistente para instalar de Visual FoxPro.	
+Check Modules	"Fox_4000001,Microsoft Visual FoxPro, graph, MS Graph, ed, MS Draw, msinfo, MS Info, MSOfficeWClass, Microsoft Office Manager, MOM Class, Office Shortcut Bar"	
+Source Directory	F:\SAP\QUEMAR~1\SAPJOR~1\INSTAL~1\DISK1\	
+MSAPPS Mode	local	
+MSAPPS Connect	server	
+Inf File Name	SETUP.INF	
+Help File Name	ACMSETUP.HLP	
+Setup Status	"töÁ÷)—ìM∞66IDk2(ü1õ^N""X˜˛zæõ”5/y""è?çÁ£¿ìù›Y∫∆W”Fb¢U“†«`Bπ˛Ñp]*⁄ﬂnŒ2∆ê˚m_Ì0ëˇíºs∑¿µ™Ëw´¡Ü˝K5?ºdz[„œoÓe‰~/Fê¬µ–~x£K±Q–àÍËjì;≠Ÿ[|ﬂÓ2ôB±∑vö9‚à“«ÁÔâP¯ù≤uQ?4ÊÁT•\ˆÌ≤*›"	
+Setup Status2	0	
+Maximum Object ID	49	
+Admin Mode Root Object ID		
+Floppy Mode Root Object ID	2 : 1	
+Network Mode Root Object ID		
+Maintenance Mode Root Object ID	3 : 1	
+Network Maintenance Mode Root Object ID		
+Batch Mode Root Object ID	2 : 1	
+Suppress Serial Number Dialog		
+Install Date	2008.03.20.20.46.46	
+Check Modules2		
+Check Modules3		
+Check Modules4		
+
+
+ObjID	Checkbox State	Title	Description	Object Type	Object Data	Bitmap Id	Vital Attribute	Shared Attribute	Configurable Directory	Destination Directory	Check Directory	Installed By	Install Data	Install Directory
+1			Search for previous versions.	AppSearch	"""C:\SAP\"", """", """", 12, ""yes"", ""yes"","					C:\SAP\		us		C:\SAP\
+2		Floppy Installation		AppMainDlg	5				yes	C:\SAP\		us		C:\SAP\
+3		Maintenance Installation		CustomDlg	7					C:\SAP\				
+5	yes		Instalar todos los archivos para Administracion de Prestamos	Group	7	"wizset32.dll, 111"						us		C:\SAP\
+7	yes	Administracion de Prestamos	Administracion de Prestamos se instalar·.	Group	8 9 13 12 10 16 11 14 17							us		C:\SAP\
+8			*** Administracion de Prestamos Files	CopyFile	"Application,_2BL0JFZDX"		vital					us		C:\SAP\
+9			*** Administracion de Prestamos Files	CopySection	Application		vital					us		C:\SAP\
+10			Visual Foxpro Runtime	Group	35 36 37 39 40							us		C:\SAP\
+11			Miscellanous files	Group	20		vital					us		C:\SAP\
+12			OLEAUT32 System	Group	23 24 26 27 29 30		vital					nyi		
+13		Setup Message	Installation of this product requires system administrator privileges.	CustomAction	"wizset32.dll, DetectAdminPrivileges"							us		C:\SAP\
+14			*** Post Setup Executable	Group	15							us		C:\SAP\
+15			Post Setup Executable	CustomAction	"""wizset32.dll"", ""ExecutePostSetupCommand"", ""SAP.EXE"""							us		C:\SAP\
+16			VC Runtime	Group	32 33		vital					nyi		
+17			Uninstall	Group	43 44 45 46 47 48							us		C:\SAP\
+20	yes			CopyFile	"Misc,SapExe"					%D		us		C:\SAP\
+23	yes			InstallSysFile	"System,Oleaut32Dll"							nyi		
+24	yes	OLEAUT32.DLL		Depend	23 ? 25							nyi		
+25	yes	OLEAUT32.DLL		SelfReg	"System,Oleaut32Dll"					%M		nyi		
+26	yes			InstallSysFile	"System,Olepro32Dll"							nyi		
+27	yes	OLEPRO32.DLL		Depend	26 ? 28							nyi		
+28	yes	OLEPRO32.DLL		SelfReg	"System,Olepro32Dll"					%M		nyi		
+29	yes			InstallSysFile	"System,AsycfiltDll"							nyi		
+30	yes			InstallSysFile	"System,Stdole2Tlb"							nyi		
+32	yes			InstallSysFile	"VC Runtime,MsvcrtDll"							nyi		
+33	yes			InstallSysFile	"VC Runtime,Msvcrt40Dll"							nyi		
+35	yes			InstallSysFile	"VFP Runtime,Vfp6renuDll"							us		C:\WINDOWS\system32\
+36	yes			InstallSysFile	"VFP Runtime,Vfp6runExe"							us		C:\WINDOWS\system32\
+37	yes	VFP6RUN.EXE		Depend	36 ? 38							us	Yes	C:\SAP\
+38	yes	VFP6RUN.EXE		CustomAction	"""wizset32.dll"",""ExecutePostSetupCommand"",""VFP6RUN.EXE /RegServer"""					%M		us		C:\WINDOWS\system32\
+39	yes			InstallSysFile	"VFP Runtime,Vfp6rDll"							us		C:\WINDOWS\system32\
+40	yes	VFP6R.DLL		Depend	39 ? 41							us	Yes	C:\SAP\
+41	yes	VFP6R.DLL		SelfReg	"VFP Runtime,Vfp6rDll"					%M		us		C:\WINDOWS\system32\
+43				AddRegData	"LOCAL,Software\Microsoft\Windows\CurrentVersion\Uninstall\Administracion de Prestamos                                  ,DisplayName,Administracion de Prestamos                                  ,REG_SZ"							us		C:\SAP\
+44				AddRegData	"LOCAL,Software\Microsoft\Windows\CurrentVersion\Uninstall\Administracion de Prestamos                                  ,UninstallString,%s\setup\setup.exe,REG_SZ"					%d		us		C:\SAP\
+45				CopySection	Setup					%d\setup		us		C:\SAP\setup\
+46				CopyFile	"VC Runtime,Msvcrt40Dll"					%d\setup		us		C:\SAP\setup\
+47				CopyFile	"VC Runtime,MsvcrtDll"					%d\setup		us		C:\SAP\setup\
+48				WriteTableFile	setup.stf					%d\setup		us		C:\SAP\setup\
