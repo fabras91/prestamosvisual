@@ -1,0 +1,339 @@
+[Version]
+Signature = "$Windows NT$"
+Provider=Microsoft Visual FoxPro 9.0 Prerequisites - English
+
+[GUID to Friendly Name Mapping]
+04D3D264-4A22-11d2-ACC7-00C04F8EEBA1,GFN_CID Setup.exe
+98A7F199-EEC2-11d2-ACDB-00C04F8EEBA1,GFN_CID CommandLine
+FFA0ABAC-4A7F-11d2-B8F9-00C04F797FB8,GFN_CID WizardUI
+;3561DCE7-4CCB-11d2-ACC7-00C04F8EEBA1,GFN_CID MMC
+;053ABC39-4CCE-11d2-ACC7-00C04F8EEBA1,GFN_CID IE
+;053ABC3A-4CCE-11d2-ACC7-00C04F8EEBA1,GFN_CID Exchange Test
+;053ABC3B-4CCE-11d2-ACC7-00C04F8EEBA1,GFN_CID NT Setup
+DECDD26F-5491-11d2-BEE7-00C04F797FB8,GFN_CID Default Scenario Factory
+DECDD272-5491-11d2-BEE7-00C04F797FB8,GFN_CID Custom Scenario
+DECDD273-5491-11d2-BEE7-00C04F797FB8,GFN_CID Typical Scenario
+48121B76-8BDE-11d2-AF04-00C04F797FB8,GFN_CID Minimal Scenario
+DECDD274-5491-11d2-BEE7-00C04F797FB8,GFN_CID Complete Scenario
+9DE4FE99-5700-11d2-ACC7-00C04F8EEBA1,GFN_CID SetupDB
+9DE4FE9A-5700-11d2-ACC7-00C04F8EEBA1,GFN_CID SetupLog
+20D9416D-742D-11d2-AF03-00C04F797FB8,GFN_CID Change Folder
+2B0A7483-8D57-11d2-941D-00C04FA35008,GFN_CID Default Dependency UI
+9D194CF1-7A6A-11d2-940E-00C04FA35008,GFN_CID Dependency Manager
+;DFF9E764-8F9D-11d2-AF04-00C04F797FB8,GFN_CID Cartman Test Component
+A4F9DC85-1881-11d3-8896-00C04F72D91B,GFN_CID Cartman Agg Component
+E0A7B954-1881-11d3-8896-00C04F72D91B,GFN_CID Cartman Contain Component
+24A501BA-90A1-11d2-AF05-00C04F797FB8,GFN_CID CD Info Manager
+1B7EA23A-93CB-11d2-AF07-00C04F797FB8,GFN_CID Template Manager
+5F2C847D-96A6-11d2-AF0A-00C04F797FB8,GFN_CID Disk Info Manager
+01D92EBE-A8E3-11d2-BCEE-00C04F797FB8,GFN_CID Account Manager
+6AF63660-A8EA-11d2-BCEE-00C04F797FB8,GFN_CID Setup Validation
+053A4C40-121B-11d3-A823-00C04FB1799F,GFN_CID PageFile Requirements
+05B2109B-13B7-11d3-A823-00C04FB1799F,GFN_CID Processor Requirements
+8269DCC4-1457-11d3-A823-00C04FB1799F,GFN_CID Platform Requirements
+F06AFA52-145A-11d3-A823-00C04FB1799F,GFN_CID RAM Requirements
+A67B1E72-F530-4d0f-BEF3-B4CEA450C1A3,GFN_CID VS Baseline Requirements
+A5F918AB-5E66-11d2-ACCA-00C04F8EEBA1,GFN_PID Core Password
+5DFE21F0-BBA9-11d2-BCF8-00C04F797FB8,GFN_PID Core AutoLogon
+496A525F-E168-11d2-ACD9-00C04F8EEBA1,GFN_PID Core AutoLogon Previously Enabled
+A5F918AC-5E66-11d2-ACCA-00C04F8EEBA1,GFN_PID Core User Name
+A5F918AD-5E66-11d2-ACCA-00C04F8EEBA1,GFN_PID Core Organization
+A5F918AE-5E66-11d2-ACCA-00C04F8EEBA1,GFN_PID Core PID 20
+A5F918AF-5E66-11d2-ACCA-00C04F8EEBA1,GFN_PID Core PID 30
+A5F918B0-5E66-11d2-ACCA-00C04F8EEBA1,GFN_PID Core License File
+0969412C-7281-11d2-AF01-00C04F797FB8,GFN_PID Core Suite Directory
+BCC78D7A-89AE-11d2-AF03-00C04F797FB8,GFN_PID Core Post Reboot
+7F242DEB-9933-11d2-AF0A-00C04F797FB8,GFN_PID Core Progress Show Subs
+7F242DEC-9933-11d2-AF0A-00C04F797FB8,GFN_PID Core Progress Show Tasks
+21AB4294-9EDC-11d2-BCE6-00C04F797FB8,GFN_PID Core Ask For Pre Install
+21AB4295-9EDC-11d2-BCE6-00C04F797FB8,GFN_PID Core Ask for Post Install
+BAE217D6-A5BB-11d2-BCEB-00C04F797FB8,GFN_PID Core Suite Mode
+620DD71E-A5EB-11d2-BCEB-00C04F797FB8,GFN_PID Core Suite Baseline
+A81C6A8C-D2A9-11d2-8DCE-00C04F797FB8,GFN_PID Core Install Scenario Baseline
+C4FB0E3A-B4F7-11d2-BCF1-00C04F797FB8,GFN_PID Core Force Disk Space OK
+3EF34D18-B7E8-11d2-BCF7-00C04F797FB8,GFN_PID Core Ignore Final Disk Space Check
+0BE0948F-9604-11d2-ACD4-00C04F8EEBA1,GFN_PID Core Disk Requirement
+0DC70217-9545-11d2-ACD4-00C04F8EEBA1,GFN_PID Core Suite Name
+8C212B25-D815-11d2-ACD9-00C04F8EEBA1,GFN_PID Core Registry
+F6353DD7-031A-11d3-ACE2-00C04F8EEBA1,GFN_PID Core No Event Log
+481CEF9F-033A-11d3-ACE2-00C04F8EEBA1,GFN_PID Core No Error Log
+667E8BBF-0713-11d3-ACE2-00C04F8EEBA1,GFN_PID Core System Drive
+667E8BC0-0713-11d3-ACE2-00C04F8EEBA1,GFN_PID Core Program Files
+340F792F-0E41-11d3-ACE2-00C04F8EEBA1,GFN_PID Core Input Unattend File
+340F7930-0E41-11d3-ACE2-00C04F8EEBA1,GFN_PID Core Output Unattend File
+340F7931-0E41-11d3-ACE2-00C04F8EEBA1,GFN_PID Core Force Show Attended UI
+27CEFE6D-0E48-11d3-ACE2-00C04F8EEBA1,GFN_PID Skip Defaultable UI
+E2DC890C-0F0F-11d3-ACE2-00C04F8EEBA1,GFN_PID Encrypted Mode
+73BF7613-5F34-11d2-ACCA-00C04F8EEBA1,GFN_PID StockProp Hidden
+DF99F02A-79AE-11d2-AF03-00C04F797FB8,GFN_PID StockProp Required
+DE3AF114-8A61-11d2-AF03-00C04F797FB8,GFN_PID StockProp SuiteBaseline
+D911B8E0-A9E1-11d2-BCEE-00C04F797FB8,GFN_PID StockProp ScenarioBaseline
+B405F1B3-9526-11d2-8FE9-00C04FB1799F,GFN_PID OS Unattended
+B405F1B4-9526-11d2-8FE9-00C04FB1799F,GFN_PID OS Cmd
+F0BB11CB-414A-4538-8ED9-23A52121934C,GFN_MID Windows Installer 2.0 NT
+D81A7DE0-C77E-419b-B83D-D53AB984CC1A,GFN_MID Setup Files
+4B4AE149-9BDF-4ffa-A03D-514A5AED8282,GFN_MID MDAC 2.8
+B8491221-AA0B-4fa5-B41A-C1295AA5E0DE,GFN_MID SOAP 3 SDK
+F81E14E5-69E6-11d2-8586-00C04F797FB8,GFN_DPID Component Selection Page
+F81E14E6-69E6-11d2-8586-00C04F797FB8,GFN_DPID Data Directory Page
+F81E14E7-69E6-11d2-8586-00C04F797FB8,GFN_DPID Service Account Page
+F81E14E8-69E6-11d2-8586-00C04F797FB8,GFN_DPID Summary Page
+
+[License File]
+Location = tempeula.txt
+FailOnNotExist = 0
+
+[CompleteComponentList]
+gencomp13.dll
+gencomp17.dll
+gencomp22.dll
+gencomp35.dll
+
+[PreInstallOrder]
+GFN_MID Windows Installer 2.0 NT
+GFN_MID Setup Files
+GFN_MID MDAC 2.8
+GFN_MID SOAP 3 SDK
+
+[InstallOrder]
+GFN_MID Windows Installer 2.0 NT
+GFN_MID Setup Files
+GFN_MID MDAC 2.8
+GFN_MID SOAP 3 SDK
+
+[PostInstallOrder]
+GFN_MID Windows Installer 2.0 NT
+GFN_MID Setup Files
+GFN_MID MDAC 2.8
+GFN_MID SOAP 3 SDK
+
+[Updates]
+Null String
+
+[Managers]
+UI = vs70uimgr.dll
+;UI=wizardui.dll
+Log = setuplog.dll
+ChangeFolder = DefChangeFolder.dll
+CDInfo = CDInfoMgr.dll
+DiskInfo = DiskInfoMgr.dll
+Account = AccountMgr.dll
+Template = TemplMgr.dll
+Dependency = DependMgr.dll
+Validation = Validation.dll
+ScenarioFactory = DefFactory.dll
+DependencyUI = DefDependencyUI.dll
+Encryption = CryptInf.dll
+Help = defhelp.dll
+ServerGroupManager = SvrGrpMgr.dll
+
+[Startup Sequence]
+welcome
+license
+nameorg
+pid 2.0
+pid 3.0
+autologon
+
+;
+; Third Pary Hooks:
+;
+;   SE,[Filename / Address / etc]       -- ShellExecute
+;   EXE,[Filename]                      -- CreateProcess
+;   DLLCall,[Filename]-[Function]       -- LoadLibrary, GetProcAddress, then run
+;   HTMLPage,[Filename / Address / etc] -- Inserts a browser page in the sequence
+;   DLLPage,[Filename]-[Finction]       -- LoadLibrary, GetProcAddress, get LPCPROPSHEETPAGE from function, add to sequence
+;
+
+[Suite Page Sequence]
+suite directory
+scenario selection
+
+[Finish Page Sequence]
+errors
+finish
+
+[Startup Sequence - Maintenance]
+welcome
+autologon
+
+[Suite Page Sequence - Maintenance]
+scenario selection
+
+[Finish Page Sequence - Maintenance]
+errors
+finish
+
+[Page Overrides]
+ProgressPage=Null String
+FinishPage=Null String
+
+[CD Info]
+;<Component Name>,         <CD #>, <Directory Name>, <Location of component's setup.exe>
+GFN_CID Setup.exe, 1, vsstudio, installdisk1
+GFN_MID Windows Installer 2.0 NT,1,WindowsInstaller\WinNT,installdisk1
+GFN_MID Setup Files,1,,installdisk1
+GFN_MID MDAC 2.8,1,MDAC28,installdisk1
+GFN_MID SOAP 3 SDK,1,,installdisk1
+
+[Custom Property Overrides]
+Null String
+;GFN_MID Cartman Test Component,GFN_PID StockProp Required,1
+; Format: <Component Guid>,<Property Guid>,<New property value>
+;
+
+[Progress Display]
+ShowSubs = 0
+ShowTasks = 1
+
+[Installation Prompting]
+AskForPreInstall = 0
+AskForPostInstall = 0
+
+[Error Log]
+baserrorlog.txt
+
+[Event Log]
+baseventlog.txt
+
+[Admin Error Log]
+Log=BaselineAdminErrorLog.txt
+
+[Product Information]
+ServicePackMode=1
+NoJPNFontUpdate=1
+NoInitialFileCopy=1
+NullString=Null String
+SuiteMode=0
+InstallSuiteBaseline=0
+InstallScenarioBaseline=0
+DefaultDirectory="Microsoft Integration"
+CmdLineHelp=1
+IgnoreFinalDiskSpaceCheck=1
+Suite="Microsoft Windows Component Update 1.0 Setup"
+Core Disk Requirement=10485760
+Processor Requirement=Null String
+RAM Requirement=128
+Pagefile Requirement=128
+ContinueOnFail=1
+PathToExe=bkoffice
+ExpandSubsByDefault=0
+CancelOnInsufficientSpace=0
+RequireName=1
+RequireOrg=1
+AddToAddRemovePrograms=0
+ShowUIInUnattend=0
+DefaultPid20=111 - 1111111
+DefaultPid30=BBH2G-D2VK9-QD4M9-F63XB-43C33
+SuiteCmdLineHelpText=Null String
+TitleBarTextOverride=Null String
+NoDisplayInAutologon=Null String
+UserBrowseHelpFile=SYSDM.HLP
+UserBrowseHelpContext=10020
+CopySuiteFilesWhileRemoving=0
+ShowWizardHelpButtons=1
+;
+; NOTE: to use the defaults for welcome/finish page text leave the values below blank.
+;       to not show any text for these values specify " - " for the values.
+;
+WelcomeHeaderText=Null String
+WelcomeParagraph1Text=Null String
+WelcomeParagraph2Text=Null String
+WelcomeFooterText=Null String
+FinishHeaderText=Null String
+FinishParagraph1Text=Null String
+FinishFooterText=Null String
+ComCTLRequired=0
+;
+; This is a bitmask value that will be stored and possibly modified
+;  by core, and used in the UI to determine which columns are shown
+; "Current Version" = 1
+; "Install Drive" = 2
+; "Required Disk Space" = 4
+; "Machine"             = 8
+;
+DisplayColumns = 15
+
+[Bitmaps]
+Header=Null String
+Watermark=Null String
+; Header=FILE:tempheader.bmp
+; Watermark=FILE:tempwatermark.bmp
+;
+; Bitmaps:
+;
+;   FILE:[filename]         -- load the bitmap from a file and display
+;   DLL:[filename],[resID]  -- load the dll and load the resource ID
+;
+;   leave the value blank to use the setup default.  The value 472 or 50 will be appended
+;     to the value entered, depending on if you're using comctl32.dll v4.72 or v5.0.
+;
+;   if DLL: is used, the resID specified should be the resource ID of the v4.72 bmp, and
+;     that value + 1 will be the resource ID of the v5.0 bmp
+;
+
+[Validation]
+Pid 3.0=pidgen.dll
+
+[Install Action Overrides]
+Null String
+;
+;<component name>,[Result/Action/Result-All/Action-All],[value]
+;
+; Result: 0 = Nothing, 1 = Install, 2 = Remove
+; Action: component dependent
+;
+; the -All at the end of a result/action will modify all of the subs as well
+;
+
+[Component Order]
+1,GFN_MID Windows Installer 2.0 NT
+1,GFN_MID Setup Files
+1,GFN_MID MDAC 2.8
+1,GFN_MID SOAP 3 SDK
+
+[PostSetupLaunchList]
+Null String
+
+[AdditionalObjectsList]
+Null String
+
+[Dialog Page Order]
+COMPage , [vs70baseui.dll] - [7C4B5F58-BE8D-4aa4-9484-F541A8171A66]:
+COMAutologonPage,[vs70baseui.dll]-[D2F02D5B-9AF4-4c51-ACF5-395FFD67B5B5]:
+COMPage,[vs70baseui.dll]-[B31F27C9-91A2-4c8c-BF5C-3831F12370D0]:
+COMProgPage , [vs70baseui.dll] - [3ABD88E2-D1F2-44cf-A6A0-3DA1E5C388FC]:
+COMPage , [vs70baseui.dll] - [F109876A-117B-4796-9C3C-431040A8DE53]:
+
+[Dialog Page Order - Maintenance]
+COMAutologonPage,[vs70baseui.dll]-[D2F02D5B-9AF4-4c51-ACF5-395FFD67B5B5]:
+COMPage,[vs70baseui.dll]-[B31F27C9-91A2-4c8c-BF5C-3831F12370D0]:
+COMProgPage , [vs70baseui.dll] - [3ABD88E2-D1F2-44cf-A6A0-3DA1E5C388FC]:
+COMPage , [vs70baseui.dll] - [F109876A-117B-4796-9C3C-431040A8DE53]:
+
+[Dialog Page Order - Admin]
+COMPage , [vs70baseui.dll] - [7C4B5F58-BE8D-4aa4-9484-F541A8171A66]:
+COMPage,[vs70baseui.dll]-[B10AAE3C-69D4-4d65-AC17-3A0B8BB600B6]:
+COMProgPage , [vs70baseui.dll] - [3ABD88E2-D1F2-44cf-A6A0-3DA1E5C388FC]:
+COMPage , [vs70baseui.dll] - [F109876A-117B-4796-9C3C-431040A8DE53]:
+
+[Dialog Page Order - AdminMaintenance]
+COMPage,[vs70baseui.dll]-[B10AAE3C-69D4-4d65-AC17-3A0B8BB600B6]:
+COMProgPage , [vs70baseui.dll] - [3ABD88E2-D1F2-44cf-A6A0-3DA1E5C388FC]:
+COMPage , [vs70baseui.dll] - [F109876A-117B-4796-9C3C-431040A8DE53]:
+
+[Suite Requirements]
+vsbasereqs.dll, GFN_CID VS Baseline Requirements
+[VS Custom]
+LangCode=ENU
+CpuType=X86
+ProdFamilyType=VS
+EditionType=Bsln
+ImageType=CD
+ProdDesc=Microsoft Visual FoxPro 9.0 Prerequisites
+ProdName=Microsoft Visual FoxPro 9.0 Prerequisites - English
+DependencyFile = vs_setup.pdi
+ComponentFile = baseline.dat
+Height=460
+Width=500
+RegKey=VFPWCU

@@ -1,0 +1,29 @@
+[Version]
+Signature = "$Windows NT$"
+Provider=Microsoft Visual FoxPro 9.0 Prerequisites - English
+Version=700.100.01
+NullString=Null String
+
+[Complete Component List]
+GFN_MID Windows Installer 2.0 NT
+GFN_MID Setup Files
+GFN_MID MDAC 2.8
+GFN_MID SOAP 3 SDK
+
+[CompleteDependencyList]
+gencomp13.dll
+gencomp17.dll
+gencomp22.dll
+gencomp35.dll
+
+[Visual FoxPro 9.0 Professional - English]
+gencomp13.dll
+gencomp17.dll
+gencomp22.dll
+gencomp35.dll
+
+[Microsoft Visual FoxPro 9.0 Prerequisites - English]
+gencomp13.dll
+gencomp17.dll
+gencomp22.dll
+gencomp35.dll

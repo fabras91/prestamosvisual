@@ -1,0 +1,337 @@
+<html xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:w="urn:schemas-microsoft-com:office:word" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns:dt="uuid:C2F41010-65B3-11d1-A29F-00AA00C14882" xmlns="http://www.w3.org/TR/REC-html40">
+	<head>
+		<title>What's New in Visual FoxPro 9.0</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+		<meta name="ProgId" content="Word.Document">
+		<meta name="Generator" content="Microsoft Word 11">
+		<meta name="Originator" content="Microsoft Word 11">
+		<link rel="File-List" href="install1_files/filelist.xml"> <!--[if gte mso 9]><xml>
+ <o:DocumentProperties>
+  <o:Author>Visual FoxPro team</o:Author>
+  <o:LastAuthor>Ken Levy</o:LastAuthor>
+  <o:Revision>26</o:Revision>
+  <o:TotalTime>538</o:TotalTime>
+  <o:Created>2002-04-06T02:57:00Z</o:Created>
+  <o:LastSaved>2004-07-23T21:00:00Z</o:LastSaved>
+  <o:Pages>1</o:Pages>
+  <o:Words>571</o:Words>
+  <o:Characters>3258</o:Characters>
+  <o:Company>Microsoft</o:Company>
+  <o:Lines>27</o:Lines>
+  <o:Paragraphs>7</o:Paragraphs>
+  <o:CharactersWithSpaces>3822</o:CharactersWithSpaces>
+  <o:Version>11.5606</o:Version>
+ </o:DocumentProperties>
+</xml><![endif]-->  <!--[if gte mso 9]><xml>
+ <w:WordDocument>
+  <w:Zoom>150</w:Zoom>
+  <w:HideSpellingErrors/>
+  <w:GrammarState>Clean</w:GrammarState>
+  <w:ValidateAgainstSchemas/>
+  <w:SaveIfXMLInvalid>false</w:SaveIfXMLInvalid>
+  <w:IgnoreMixedContent>false</w:IgnoreMixedContent>
+  <w:AlwaysShowPlaceholderText>false</w:AlwaysShowPlaceholderText>
+  <w:BrowserLevel>MicrosoftInternetExplorer4</w:BrowserLevel>
+ </w:WordDocument>
+</xml><![endif]-->  <!--[if gte mso 9]><xml>
+ <w:LatentStyles DefLockedState="false" LatentStyleCount="156">
+ </w:LatentStyles>
+</xml><![endif]-->
+			<style> <!-- /* Font Definitions */ @font-face {font-family:Wingdings; panose-1:5 0 0 0 0 0 0 0 0 0; mso-font-charset:2; mso-generic-font-family:auto; mso-font-pitch:variable; mso-font-signature:0 268435456 0 0 -2147483648 0;}
+	@font-face {font-family:Tahoma; panose-1:2 11 6 4 3 5 4 4 2 4; mso-font-charset:0; mso-generic-font-family:swiss; mso-font-pitch:variable; mso-font-signature:1627421319 -2147483648 8 0 66047 0;}
+	/* Style Definitions */ p.MsoNormal, li.MsoNormal, div.MsoNormal {mso-style-parent:""; margin:0in; margin-bottom:.0001pt; mso-pagination:widow-orphan; font-size:12.0pt; font-family:"Times New Roman"; mso-fareast-font-family:"Times New Roman";}
+	h1 {mso-style-next:Normal; margin:0in; margin-bottom:.0001pt; mso-pagination:widow-orphan; page-break-after:avoid; mso-outline-level:1; mso-layout-grid-align:none; text-autospace:none; font-size:10.0pt; mso-bidi-font-size:22.0pt; font-family:Tahoma; mso-font-kerning:0pt;}
+	p.MsoDocumentMap, li.MsoDocumentMap, div.MsoDocumentMap {mso-style-noshow:yes; margin:0in; margin-bottom:.0001pt; mso-pagination:widow-orphan; background:navy; font-size:12.0pt; font-family:Tahoma; mso-fareast-font-family:"Times New Roman";}
+	span.GramE {mso-style-name:""; mso-gram-e:yes;}
+	@page Section1 {size:8.5in 11.0in; margin:1.0in 1.25in 1.0in 1.25in; mso-header-margin:.5in; mso-footer-margin:.5in; mso-paper-source:0;}
+	div.Section1 {page:Section1;}
+	/* List Definitions */ @list l0 {mso-list-id:978917189; mso-list-type:hybrid; mso-list-template-ids:-725833248 67698699 67698691 67698693 67698689 67698691 67698693 67698689 67698691 67698693;}
+	@list l0:level1 {mso-level-number-format:bullet; mso-level-text:\F0D8; mso-level-tab-stop:.25in; mso-level-number-position:left; margin-left:.25in; text-indent:-.25in; font-family:Wingdings;}
+	@list l0:level2 {mso-level-tab-stop:1.0in; mso-level-number-position:left; text-indent:-.25in;}
+	@list l0:level3 {mso-level-tab-stop:1.5in; mso-level-number-position:left; text-indent:-.25in;}
+	@list l0:level4 {mso-level-tab-stop:2.0in; mso-level-number-position:left; text-indent:-.25in;}
+	@list l0:level5 {mso-level-tab-stop:2.5in; mso-level-number-position:left; text-indent:-.25in;}
+	@list l0:level6 {mso-level-tab-stop:3.0in; mso-level-number-position:left; text-indent:-.25in;}
+	@list l0:level7 {mso-level-tab-stop:3.5in; mso-level-number-position:left; text-indent:-.25in;}
+	@list l0:level8 {mso-level-tab-stop:4.0in; mso-level-number-position:left; text-indent:-.25in;}
+	@list l0:level9 {mso-level-tab-stop:4.5in; mso-level-number-position:left; text-indent:-.25in;}
+	@list l1 {mso-list-id:2049137998; mso-list-type:hybrid; mso-list-template-ids:-1592997602 67698699 67698691 67698693 67698689 67698691 67698693 67698689 67698691 67698693;}
+	@list l1:level1 {mso-level-number-format:bullet; mso-level-text:\F0D8; mso-level-tab-stop:.25in; mso-level-number-position:left; margin-left:.25in; text-indent:-.25in; font-family:Wingdings;}
+	@list l1:level2 {mso-level-tab-stop:1.0in; mso-level-number-position:left; text-indent:-.25in;}
+	@list l1:level3 {mso-level-tab-stop:1.5in; mso-level-number-position:left; text-indent:-.25in;}
+	@list l1:level4 {mso-level-tab-stop:2.0in; mso-level-number-position:left; text-indent:-.25in;}
+	@list l1:level5 {mso-level-tab-stop:2.5in; mso-level-number-position:left; text-indent:-.25in;}
+	@list l1:level6 {mso-level-tab-stop:3.0in; mso-level-number-position:left; text-indent:-.25in;}
+	@list l1:level7 {mso-level-tab-stop:3.5in; mso-level-number-position:left; text-indent:-.25in;}
+	@list l1:level8 {mso-level-tab-stop:4.0in; mso-level-number-position:left; text-indent:-.25in;}
+	@list l1:level9 {mso-level-tab-stop:4.5in; mso-level-number-position:left; text-indent:-.25in;}
+	ol {margin-bottom:0in;}
+	ul {margin-bottom:0in;}
+	--></style>
+		<!--[if gte mso 10]>
+<style>
+ /* Style Definitions */
+ table.MsoNormalTable
+	{mso-style-name:"Table Normal";
+	mso-tstyle-rowband-size:0;
+	mso-tstyle-colband-size:0;
+	mso-style-noshow:yes;
+	mso-style-parent:"";
+	mso-padding-alt:0in 5.4pt 0in 5.4pt;
+	mso-para-margin:0in;
+	mso-para-margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Times New Roman";
+	mso-ansi-language:#0400;
+	mso-fareast-language:#0400;
+	mso-bidi-language:#0400;}
+</style>
+<![endif]-->  <!--[if gte mso 9]><xml>
+ <o:shapedefaults v:ext="edit" spidmax="10242"/>
+</xml><![endif]-->  <!--[if gte mso 9]><xml>
+ <o:shapelayout v:ext="edit">
+  <o:idmap v:ext="edit" data="1"/>
+ </o:shapelayout></xml><![endif]-->
+	</head>
+	<body bgcolor="white" lang="EN-US" style='tab-interval:.5in'>
+		<div class="Section1">
+			<h1><span style='BACKGROUND:white'>What's New in Visual FoxPro 9.0</span><span style='BACKGROUND:white;mso-bidi-font-size:10.0pt'><o:p></o:p>
+				</span></h1>
+			<p class="MsoNormal" style='mso-layout-grid-align:none'><span style='FONT-SIZE:8pt;BACKGROUND:white;FONT-FAMILY:Tahoma;mso-bidi-font-size:18.0pt'><o:p>&nbsp;</o:p>
+				</span></p>
+			<p class="MsoNormal" style='mso-layout-grid-align:none'><span style='FONT-SIZE:8pt;BACKGROUND:white;FONT-FAMILY:Tahoma;mso-bidi-font-size:10.0pt'>With its local cursor engine, tight coupling between language and data, and
+powerful features, Visual FoxPro 9.0 is a great tool for building database
+solutions of all sizes. Its data-centric, object-oriented language offers
+developers a robust set of tools for building database applications for the
+desktop, client-server environments, or the Web. Developers will have the
+necessary tools to manage data—from organizing tables of information, running
+queries, and creating an integrated relational database management system
+(DBMS) to programming a fully-developed data management application for end
+users.<o:p></o:p></span></p>
+			<p class="MsoNormal" style='mso-layout-grid-align:none'><span style='FONT-SIZE:8pt;BACKGROUND:white;FONT-FAMILY:Tahoma;mso-bidi-font-size:10.0pt'><o:p>&nbsp;</o:p>
+				</span></p>
+			<p class="MsoNormal" style='mso-layout-grid-align:none'><span style='FONT-SIZE:8pt;BACKGROUND:white;FONT-FAMILY:Tahoma;mso-bidi-font-size:10.0pt'>Here are some of the many new features in Visual FoxPro 9.0:<o:p></o:p></span></p>
+			<p class="MsoNormal" style='mso-layout-grid-align:none'><span style='FONT-SIZE:8pt;BACKGROUND:white;FONT-FAMILY:Tahoma;mso-bidi-font-size:10.0pt'><o:p>&nbsp;</o:p>
+				</span></p>
+			<p class="MsoNormal" style='mso-layout-grid-align:none'><b><span style='FONT-SIZE:8pt;BACKGROUND:white;FONT-FAMILY:Tahoma'>Flexibility to
+Build All Types of Database Solutions</span></b><b><span style='FONT-SIZE:8pt;
+BACKGROUND:white;
+FONT-FAMILY:Tahoma;
+mso-bidi-font-size:10.0pt'><o:p></o:p>
+					</span></b></p>
+			<p class="MsoNormal" style='MARGIN-LEFT:0.25in;TEXT-INDENT:-0.25in;mso-layout-grid-align:none;mso-list:l0 level1 lfo2;tab-stops:list .25in'><![if 
+				!supportLists]><span style='FONT-SIZE:8pt;FONT-FAMILY:Wingdings;mso-bidi-font-size:10.0pt;mso-fareast-font-family:Wingdings;mso-bidi-font-family:Wingdings'><span style='mso-list:Ignore'>Ø<span style="FONT:7pt 'Times New Roman'">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span>
+				</span><![endif]><span style='FONT-SIZE:8pt;BACKGROUND:white;FONT-FAMILY:Tahoma;mso-bidi-font-size:10.0pt'>Create .NET compatible solutions
+with hierarchical XML and XML Web services.<o:p></o:p></span></p>
+			<p class="MsoNormal" style='MARGIN-LEFT:0.25in;TEXT-INDENT:-0.25in;mso-layout-grid-align:none;mso-list:l0 level1 lfo2;tab-stops:list .25in'><![if 
+				!supportLists]><span style='FONT-SIZE:8pt;FONT-FAMILY:Wingdings;mso-bidi-font-size:10.0pt;mso-fareast-font-family:Wingdings;mso-bidi-font-family:Wingdings'><span style='mso-list:Ignore'>Ø<span style="FONT:7pt 'Times New Roman'">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span>
+				</span><![endif]><span style='FONT-SIZE:8pt;BACKGROUND:white;FONT-FAMILY:Tahoma;mso-bidi-font-size:10.0pt'>Exchange data with SQL Server through
+enhanced SQL language capabilities and newly supported data types.<o:p></o:p></span></p>
+			<p class="MsoNormal" style='MARGIN-LEFT:0.25in;TEXT-INDENT:-0.25in;mso-layout-grid-align:none;mso-list:l0 level1 lfo2;tab-stops:list .25in'><![if 
+				!supportLists]><span style='FONT-SIZE:8pt;FONT-FAMILY:Wingdings;mso-bidi-font-size:10.0pt;mso-fareast-font-family:Wingdings;mso-bidi-font-family:Wingdings'><span style='mso-list:Ignore'>Ø<span style="FONT:7pt 'Times New Roman'">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span>
+				</span><![endif]><span style='FONT-SIZE:8pt;BACKGROUND:white;FONT-FAMILY:Tahoma;mso-bidi-font-size:10.0pt'>Enhance your user interfaces with
+dockable user forms, auto-anchoring of controls, and improved image support.<o:p></o:p></span></p>
+			<p class="MsoNormal" style='MARGIN-LEFT:0.25in;TEXT-INDENT:-0.25in;mso-layout-grid-align:none;mso-list:l0 level1 lfo2;tab-stops:list .25in'><![if 
+				!supportLists]><span style='FONT-SIZE:8pt;FONT-FAMILY:Wingdings;mso-bidi-font-size:10.0pt;mso-fareast-font-family:Wingdings;mso-bidi-font-family:Wingdings'><span style='mso-list:Ignore'>Ø<span style="FONT:7pt 'Times New Roman'">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span>
+				</span><![endif]><span style='FONT-SIZE:8pt;BACKGROUND:white;FONT-FAMILY:Tahoma;mso-bidi-font-size:10.0pt'>Personalize the Properties Window
+with your favorite properties, custom editors, fonts, and color settings.<o:p></o:p></span></p>
+			<p class="MsoNormal" style='MARGIN-LEFT:0.25in;TEXT-INDENT:-0.25in;mso-layout-grid-align:none;mso-list:l0 level1 lfo2;tab-stops:list .25in'><![if 
+				!supportLists]><span style='FONT-SIZE:8pt;FONT-FAMILY:Wingdings;mso-bidi-font-size:10.0pt;mso-fareast-font-family:Wingdings;mso-bidi-font-family:Wingdings'><span style='mso-list:Ignore'>Ø<span style="FONT:7pt 'Times New Roman'">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span>
+				</span><![endif]><span style='FONT-SIZE:8pt;BACKGROUND:white;FONT-FAMILY:Tahoma;mso-bidi-font-size:10.0pt'>Build and deploy stand-alone and
+remote applications for Windows based Tablet PCs.<o:p></o:p></span></p>
+			<p class="MsoNormal" style='MARGIN-LEFT:0.25in;TEXT-INDENT:-0.25in;mso-layout-grid-align:none;mso-list:l0 level1 lfo2;tab-stops:list .25in'><![if 
+				!supportLists]><span style='FONT-SIZE:8pt;FONT-FAMILY:Wingdings;mso-bidi-font-size:10.0pt;mso-fareast-font-family:Wingdings;mso-bidi-font-family:Wingdings'><span style='mso-list:Ignore'>Ø<span style="FONT:7pt 'Times New Roman'">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span>
+				</span><![endif]><span style='FONT-SIZE:8pt;BACKGROUND:white;FONT-FAMILY:Tahoma;mso-bidi-font-size:10.0pt'>Create and access COM components
+and XML Web Services compatible with Microsoft .NET technology.<o:p></o:p></span></p>
+			<p class="MsoNormal" style='MARGIN-LEFT:0.25in;TEXT-INDENT:-0.25in;mso-layout-grid-align:none;mso-list:l0 level1 lfo2;tab-stops:list .25in'><![if 
+				!supportLists]><span style='FONT-SIZE:8pt;FONT-FAMILY:Wingdings;mso-bidi-font-size:10.0pt;mso-fareast-font-family:Wingdings;mso-bidi-font-family:Wingdings'><span style='mso-list:Ignore'>Ø<span style="FONT:7pt 'Times New Roman'">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span>
+				</span><![endif]><span style='FONT-SIZE:8pt;BACKGROUND:white;FONT-FAMILY:Tahoma;mso-bidi-font-size:10.0pt'>Visual FoxPro 9.0 allows you to
+build end-to-end solutions, from data entry forms to complex report outputs.<o:p></o:p></span></p>
+			<p class="MsoNormal" style='mso-layout-grid-align:none'><span style='FONT-SIZE:8pt;BACKGROUND:white;FONT-FAMILY:Tahoma;mso-bidi-font-size:10.0pt'><o:p>&nbsp;</o:p>
+				</span></p>
+			<p class="MsoNormal" style='mso-layout-grid-align:none'><b><span style='FONT-SIZE:8pt;BACKGROUND:white;FONT-FAMILY:Tahoma'>Reporting System
+Features</span></b><b><span style='FONT-SIZE:8pt;BACKGROUND:white;FONT-FAMILY:Tahoma;mso-bidi-font-size:10.0pt'><o:p></o:p>
+					</span></b></p>
+			<p class="MsoNormal" style='MARGIN-LEFT:0.25in;TEXT-INDENT:-0.25in;mso-layout-grid-align:none;mso-list:l0 level1 lfo2;tab-stops:list .25in'><![if 
+				!supportLists]><span style='FONT-SIZE:8pt;FONT-FAMILY:Wingdings;mso-bidi-font-size:10.0pt;mso-fareast-font-family:Wingdings;mso-bidi-font-family:Wingdings'><span style='mso-list:Ignore'>Ø<span style="FONT:7pt 'Times New Roman'">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span>
+				</span><![endif]><span style='FONT-SIZE:8pt;BACKGROUND:white;FONT-FAMILY:Tahoma;mso-bidi-font-size:10.0pt'>Extensible new output architecture
+provides precision control of report data output and formatting.<o:p></o:p></span></p>
+			<p class="MsoNormal" style='MARGIN-LEFT:0.25in;TEXT-INDENT:-0.25in;mso-layout-grid-align:none;mso-list:l0 level1 lfo2;tab-stops:list .25in'><![if 
+				!supportLists]><span style='FONT-SIZE:8pt;FONT-FAMILY:Wingdings;mso-bidi-font-size:10.0pt;mso-fareast-font-family:Wingdings;mso-bidi-font-family:Wingdings'><span style='mso-list:Ignore'>Ø<span style="FONT:7pt 'Times New Roman'">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span>
+				</span><![endif]><span style='FONT-SIZE:8pt;BACKGROUND:white;FONT-FAMILY:Tahoma;mso-bidi-font-size:10.0pt'>Multiple detail band support for
+data with multiple one-to-many relationships.<o:p></o:p></span></p>
+			<p class="MsoNormal" style='MARGIN-LEFT:0.25in;TEXT-INDENT:-0.25in;mso-layout-grid-align:none;mso-list:l0 level1 lfo2;tab-stops:list .25in'><![if 
+				!supportLists]><span style='FONT-SIZE:8pt;FONT-FAMILY:Wingdings;mso-bidi-font-size:10.0pt;mso-fareast-font-family:Wingdings;mso-bidi-font-family:Wingdings'><span style='mso-list:Ignore'>Ø<span style="FONT:7pt 'Times New Roman'">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span>
+				</span><![endif]><span style='FONT-SIZE:8pt;BACKGROUND:white;FONT-FAMILY:Tahoma;mso-bidi-font-size:10.0pt'> Output reports supported include
+XML, HTML, image formats, and customizable multi-page print preview window.<o:p></o:p></span></p>
+			<p class="MsoNormal" style='MARGIN-LEFT:0.25in;TEXT-INDENT:-0.25in;mso-layout-grid-align:none;mso-list:l0 level1 lfo2;tab-stops:list .25in'><![if 
+				!supportLists]><span style='FONT-SIZE:8pt;FONT-FAMILY:Wingdings;mso-bidi-font-size:10.0pt;mso-fareast-font-family:Wingdings;mso-bidi-font-family:Wingdings'><span style='mso-list:Ignore'>Ø<span style="FONT:7pt 'Times New Roman'">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span>
+				</span><![endif]><span style='FONT-SIZE:8pt;BACKGROUND:white;FONT-FAMILY:Tahoma;mso-bidi-font-size:10.0pt'>Customizable print preview window
+with improved display quality and multiple page support.<o:p></o:p></span></p>
+			<p class="MsoNormal" style='MARGIN-LEFT:0.25in;TEXT-INDENT:-0.25in;mso-layout-grid-align:none;mso-list:l0 level1 lfo2;tab-stops:list .25in'><![if 
+				!supportLists]><span style='FONT-SIZE:8pt;FONT-FAMILY:Wingdings;mso-bidi-font-size:10.0pt;mso-fareast-font-family:Wingdings;mso-bidi-font-family:Wingdings'><span style='mso-list:Ignore'>Ø<span style="FONT:7pt 'Times New Roman'">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span>
+				</span><![endif]><span style='FONT-SIZE:8pt;BACKGROUND:white;FONT-FAMILY:Tahoma;mso-bidi-font-size:10.0pt'>New ReportListener class provides
+access to report generation and rendering events at runtime.<o:p></o:p></span></p>
+			<p class="MsoNormal" style='MARGIN-LEFT:0.25in;TEXT-INDENT:-0.25in;mso-layout-grid-align:none;mso-list:l0 level1 lfo2;tab-stops:list .25in'><![if 
+				!supportLists]><span style='FONT-SIZE:8pt;FONT-FAMILY:Wingdings;mso-bidi-font-size:10.0pt;mso-fareast-font-family:Wingdings;mso-bidi-font-family:Wingdings'><span style='mso-list:Ignore'>Ø<span style="FONT:7pt 'Times New Roman'">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span>
+				</span><![endif]><span style='FONT-SIZE:8pt;BACKGROUND:white;FONT-FAMILY:Tahoma;mso-bidi-font-size:10.0pt'>Flexible report chaining allows for
+more complex print jobs.<o:p></o:p></span></p>
+			<p class="MsoNormal" style='MARGIN-LEFT:0.25in;TEXT-INDENT:-0.25in;mso-layout-grid-align:none;mso-list:l0 level1 lfo2;tab-stops:list .25in'><![if 
+				!supportLists]><span style='FONT-SIZE:8pt;FONT-FAMILY:Wingdings;mso-bidi-font-size:10.0pt;mso-fareast-font-family:Wingdings;mso-bidi-font-family:Wingdings'><span style='mso-list:Ignore'>Ø<span style="FONT:7pt 'Times New Roman'">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span>
+				</span><![endif]><span style='FONT-SIZE:8pt;BACKGROUND:white;FONT-FAMILY:Tahoma;mso-bidi-font-size:10.0pt'>Powerful design-time hooks with
+customizable builders.<o:p></o:p></span></p>
+			<p class="MsoNormal" style='MARGIN-LEFT:0.25in;TEXT-INDENT:-0.25in;mso-layout-grid-align:none;mso-list:l0 level1 lfo2;tab-stops:list .25in'><![if 
+				!supportLists]><span style='FONT-SIZE:8pt;FONT-FAMILY:Wingdings;mso-bidi-font-size:10.0pt;mso-fareast-font-family:Wingdings;mso-bidi-font-family:Wingdings'><span style='mso-list:Ignore'>Ø<span style="FONT:7pt 'Times New Roman'">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span>
+				</span><![endif]><span style='FONT-SIZE:8pt;BACKGROUND:white;FONT-FAMILY:Tahoma;mso-bidi-font-size:10.0pt'>Backward compatible with existing
+Visual FoxPro reports.<o:p></o:p></span></p>
+			<p class="MsoNormal" style='mso-layout-grid-align:none'><span style='FONT-SIZE:8pt;BACKGROUND:white;FONT-FAMILY:Tahoma;mso-bidi-font-size:10.0pt'><o:p>&nbsp;</o:p>
+				</span></p>
+			<p class="MsoNormal" style='mso-layout-grid-align:none'><b><span style='FONT-SIZE:8pt;BACKGROUND:white;FONT-FAMILY:Tahoma;mso-bidi-font-size:10.0pt'>Data-Handling and Interoperability<o:p></o:p></span></b></p>
+			<p class="MsoNormal" style='MARGIN-LEFT:0.25in;TEXT-INDENT:-0.25in;mso-layout-grid-align:none;mso-list:l0 level1 lfo2;tab-stops:list .25in'><![if 
+				!supportLists]><span style='FONT-SIZE:8pt;FONT-FAMILY:Wingdings;mso-bidi-font-size:10.0pt;mso-fareast-font-family:Wingdings;mso-bidi-font-family:Wingdings'><span style='mso-list:Ignore'>Ø<span style="FONT:7pt 'Times New Roman'">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span>
+				</span><![endif]><span style='FONT-SIZE:8pt;BACKGROUND:white;FONT-FAMILY:Tahoma;mso-bidi-font-size:10.0pt'>New Data Types - Varchar, Varbinary,
+and Blob types allow for improved interoperability with SQL Server.<o:p></o:p></span></p>
+			<p class="MsoNormal" style='MARGIN-LEFT:0.25in;TEXT-INDENT:-0.25in;mso-layout-grid-align:none;mso-list:l0 level1 lfo2;tab-stops:list .25in'><![if 
+				!supportLists]><span style='FONT-SIZE:8pt;FONT-FAMILY:Wingdings;mso-bidi-font-size:10.0pt;mso-fareast-font-family:Wingdings;mso-bidi-font-family:Wingdings'><span style='mso-list:Ignore'>Ø<span style="FONT:7pt 'Times New Roman'">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span>
+				</span><![endif]><span style='FONT-SIZE:8pt;BACKGROUND:white;FONT-FAMILY:Tahoma;mso-bidi-font-size:10.0pt'>Extended SQL Enhancements – more
+capabilities with SELECT, INSERT, UPDATE and DELETE statements.<o:p></o:p></span></p>
+			<p class="MsoNormal" style='MARGIN-LEFT:0.25in;TEXT-INDENT:-0.25in;mso-layout-grid-align:none;mso-list:l0 level1 lfo2;tab-stops:list .25in'><![if 
+				!supportLists]><span style='FONT-SIZE:8pt;FONT-FAMILY:Wingdings;mso-bidi-font-size:10.0pt;mso-fareast-font-family:Wingdings;mso-bidi-font-family:Wingdings'><span style='mso-list:Ignore'>Ø<span style="FONT:7pt 'Times New Roman'">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span>
+				</span><![endif]><span class="GramE"><span style='FONT-SIZE:8pt;
+BACKGROUND:white;
+FONT-FAMILY:Tahoma;
+mso-bidi-font-size:10.0pt'>CAST(</span>
+				</span><span style='FONT-SIZE:8pt;BACKGROUND:white;FONT-FAMILY:Tahoma;mso-bidi-font-size:10.0pt'>) – new function allows you to convert between different data types.<o:p></o:p></span></p>
+			<p class="MsoNormal" style='MARGIN-LEFT:0.25in;TEXT-INDENT:-0.25in;mso-layout-grid-align:none;mso-list:l0 level1 lfo2;tab-stops:list .25in'><![if 
+				!supportLists]><span style='FONT-SIZE:8pt;FONT-FAMILY:Wingdings;mso-bidi-font-size:10.0pt;mso-fareast-font-family:Wingdings;mso-bidi-font-family:Wingdings'><span style='mso-list:Ignore'>Ø<span style="FONT:7pt 'Times New Roman'">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span>
+				</span><![endif]><span style='FONT-SIZE:8pt;BACKGROUND:white;FONT-FAMILY:Tahoma;mso-bidi-font-size:10.0pt'>New Binary Index – support for new
+index type to improve performance using Deleted tag.<o:p></o:p></span></p>
+			<p class="MsoNormal" style='MARGIN-LEFT:0.25in;TEXT-INDENT:-0.25in;mso-layout-grid-align:none;mso-list:l0 level1 lfo2;tab-stops:list .25in'><![if 
+				!supportLists]><span style='FONT-SIZE:8pt;FONT-FAMILY:Wingdings;mso-bidi-font-size:10.0pt;mso-fareast-font-family:Wingdings;mso-bidi-font-family:Wingdings'><span style='mso-list:Ignore'>Ø<span style="FONT:7pt 'Times New Roman'">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span>
+				</span><![endif]><span style='FONT-SIZE:8pt;BACKGROUND:white;FONT-FAMILY:Tahoma;mso-bidi-font-size:10.0pt'>XMLAdapter – improved nested
+hierarchical XML and XSD schema support.<o:p></o:p></span></p>
+			<p class="MsoNormal" style='mso-layout-grid-align:none'><span style='FONT-SIZE:8pt;BACKGROUND:white;FONT-FAMILY:Tahoma;mso-bidi-font-size:10.0pt'><o:p>&nbsp;</o:p>
+				</span></p>
+			<p class="MsoNormal" style='mso-layout-grid-align:none'><b><span style='FONT-SIZE:8pt;BACKGROUND:white;FONT-FAMILY:Tahoma'>Smart</span></b><b><span style='FONT-SIZE:8pt;BACKGROUND:white;FONT-FAMILY:Tahoma;mso-bidi-font-size:10.0pt'> Client User Interface Features<o:p></o:p></span></b></p>
+			<p class="MsoNormal" style='MARGIN-LEFT:0.25in;TEXT-INDENT:-0.25in;mso-layout-grid-align:none;mso-list:l0 level1 lfo2;tab-stops:list .25in'><![if 
+				!supportLists]><span style='FONT-SIZE:8pt;FONT-FAMILY:Wingdings;mso-bidi-font-size:10.0pt;mso-fareast-font-family:Wingdings;mso-bidi-font-family:Wingdings'><span style='mso-list:Ignore'>Ø<span style="FONT:7pt 'Times New Roman'">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span>
+				</span><![endif]><span style='FONT-SIZE:8pt;BACKGROUND:white;FONT-FAMILY:Tahoma;mso-bidi-font-size:10.0pt'>Dockable Forms – allow for
+professional functioning Windows applications.<o:p></o:p></span></p>
+			<p class="MsoNormal" style='MARGIN-LEFT:0.25in;TEXT-INDENT:-0.25in;mso-layout-grid-align:none;mso-list:l0 level1 lfo2;tab-stops:list .25in'><![if 
+				!supportLists]><span style='FONT-SIZE:8pt;FONT-FAMILY:Wingdings;mso-bidi-font-size:10.0pt;mso-fareast-font-family:Wingdings;mso-bidi-font-family:Wingdings'><span style='mso-list:Ignore'>Ø<span style="FONT:7pt 'Times New Roman'">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span>
+				</span><![endif]><span style='FONT-SIZE:8pt;BACKGROUND:white;FONT-FAMILY:Tahoma;mso-bidi-font-size:10.0pt'>Anchoring – lets you control movement
+of controls on a form as the form is resized.<o:p></o:p></span></p>
+			<p class="MsoNormal" style='MARGIN-LEFT:0.25in;TEXT-INDENT:-0.25in;mso-layout-grid-align:none;mso-list:l0 level1 lfo2;tab-stops:list .25in'><![if 
+				!supportLists]><span style='FONT-SIZE:8pt;FONT-FAMILY:Wingdings;mso-bidi-font-size:10.0pt;mso-fareast-font-family:Wingdings;mso-bidi-font-family:Wingdings'><span style='mso-list:Ignore'>Ø<span style="FONT:7pt 'Times New Roman'">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span>
+				</span><![endif]><span style='FONT-SIZE:8pt;BACKGROUND:white;FONT-FAMILY:Tahoma;mso-bidi-font-size:10.0pt'>Buttons – improved control over
+position of image on a button with text alignment.<o:p></o:p></span></p>
+			<p class="MsoNormal" style='MARGIN-LEFT:0.25in;TEXT-INDENT:-0.25in;mso-layout-grid-align:none;mso-list:l0 level1 lfo2;tab-stops:list .25in'><![if 
+				!supportLists]><span style='FONT-SIZE:8pt;FONT-FAMILY:Wingdings;mso-bidi-font-size:10.0pt;mso-fareast-font-family:Wingdings;mso-bidi-font-family:Wingdings'><span style='mso-list:Ignore'>Ø<span style="FONT:7pt 'Times New Roman'">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span>
+				</span><![endif]><span style='FONT-SIZE:8pt;BACKGROUND:white;FONT-FAMILY:Tahoma;mso-bidi-font-size:10.0pt'>Checkboxes – new wordwrap support for
+checkbox captions.<o:p></o:p></span></p>
+			<p class="MsoNormal" style='MARGIN-LEFT:0.25in;TEXT-INDENT:-0.25in;mso-layout-grid-align:none;mso-list:l0 level1 lfo2;tab-stops:list .25in'><![if 
+				!supportLists]><span style='FONT-SIZE:8pt;FONT-FAMILY:Wingdings;mso-bidi-font-size:10.0pt;mso-fareast-font-family:Wingdings;mso-bidi-font-family:Wingdings'><span style='mso-list:Ignore'>Ø<span style="FONT:7pt 'Times New Roman'">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span>
+				</span><![endif]><span style='FONT-SIZE:8pt;BACKGROUND:white;FONT-FAMILY:Tahoma;mso-bidi-font-size:10.0pt'>Labels – support for rotating text
+for label captions.<o:p></o:p></span></p>
+			<p class="MsoNormal" style='MARGIN-LEFT:0.25in;TEXT-INDENT:-0.25in;mso-layout-grid-align:none;mso-list:l0 level1 lfo2;tab-stops:list .25in'><![if 
+				!supportLists]><span style='FONT-SIZE:8pt;FONT-FAMILY:Wingdings;mso-bidi-font-size:10.0pt;mso-fareast-font-family:Wingdings;mso-bidi-font-family:Wingdings'><span style='mso-list:Ignore'>Ø<span style="FONT:7pt 'Times New Roman'">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span>
+				</span><![endif]><span style='FONT-SIZE:8pt;BACKGROUND:white;FONT-FAMILY:Tahoma;mso-bidi-font-size:10.0pt'>Shapes and Lines – ability to
+create polygons and Bezier curves.<o:p></o:p></span></p>
+			<p class="MsoNormal" style='MARGIN-LEFT:0.25in;TEXT-INDENT:-0.25in;mso-layout-grid-align:none;mso-list:l0 level1 lfo2;tab-stops:list .25in'><![if 
+				!supportLists]><span style='FONT-SIZE:8pt;FONT-FAMILY:Wingdings;mso-bidi-font-size:10.0pt;mso-fareast-font-family:Wingdings;mso-bidi-font-family:Wingdings'><span style='mso-list:Ignore'>Ø<span style="FONT:7pt 'Times New Roman'">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span>
+				</span><![endif]><span style='FONT-SIZE:8pt;BACKGROUND:white;FONT-FAMILY:Tahoma;mso-bidi-font-size:10.0pt'>Lists and Combos – use collections
+as databinding row source.<o:p></o:p></span></p>
+			<p class="MsoNormal" style='MARGIN-LEFT:0.25in;TEXT-INDENT:-0.25in;mso-layout-grid-align:none;mso-list:l0 level1 lfo2;tab-stops:list .25in'><![if 
+				!supportLists]><span style='FONT-SIZE:8pt;FONT-FAMILY:Wingdings;mso-bidi-font-size:10.0pt;mso-fareast-font-family:Wingdings;mso-bidi-font-family:Wingdings'><span style='mso-list:Ignore'>Ø<span style="FONT:7pt 'Times New Roman'">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span>
+				</span><![endif]><span style='FONT-SIZE:8pt;BACKGROUND:white;FONT-FAMILY:Tahoma;mso-bidi-font-size:10.0pt'>Images – bind to non file-based
+pictures.<o:p></o:p></span></p>
+			<p class="MsoNormal" style='mso-layout-grid-align:none'><span style='FONT-SIZE:8pt;BACKGROUND:white;FONT-FAMILY:Tahoma;mso-bidi-font-size:10.0pt'><o:p>&nbsp;</o:p>
+				</span></p>
+			<p class="MsoNormal" style='mso-layout-grid-align:none'><b><span style='FONT-SIZE:8pt;BACKGROUND:white;FONT-FAMILY:Tahoma;mso-bidi-font-size:10.0pt'>Extensible Developer Productivity<o:p></o:p></span></b></p>
+			<p class="MsoNormal" style='MARGIN-LEFT:0.25in;TEXT-INDENT:-0.25in;mso-layout-grid-align:none;mso-list:l1 level1 lfo4;tab-stops:list .25in'><![if 
+				!supportLists]><span style='FONT-SIZE:8pt;FONT-FAMILY:Wingdings;mso-bidi-font-size:10.0pt;mso-fareast-font-family:Wingdings;mso-bidi-font-family:Wingdings'><span style='mso-list:Ignore'>Ø<span style="FONT:7pt 'Times New Roman'">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span>
+				</span><![endif]><span style='FONT-SIZE:8pt;BACKGROUND:white;FONT-FAMILY:Tahoma;mso-bidi-font-size:10.0pt'>Property Sheet – support for new
+font and color display options, extended characters and long expressions.<o:p></o:p></span></p>
+			<p class="MsoNormal" style='MARGIN-LEFT:0.25in;TEXT-INDENT:-0.25in;mso-layout-grid-align:none;mso-list:l1 level1 lfo4;tab-stops:list .25in'><![if 
+				!supportLists]><span style='FONT-SIZE:8pt;FONT-FAMILY:Wingdings;mso-bidi-font-size:10.0pt;mso-fareast-font-family:Wingdings;mso-bidi-font-family:Wingdings'><span style='mso-list:Ignore'>Ø<span style="FONT:7pt 'Times New Roman'">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span>
+				</span><![endif]><span style='FONT-SIZE:8pt;BACKGROUND:white;FONT-FAMILY:Tahoma;mso-bidi-font-size:10.0pt'>Member Data Extensibility – ability
+to specify custom property editors and favorites.<o:p></o:p></span></p>
+			<p class="MsoNormal" style='MARGIN-LEFT:0.25in;TEXT-INDENT:-0.25in;mso-layout-grid-align:none;mso-list:l1 level1 lfo4;tab-stops:list .25in'><![if 
+				!supportLists]><span style='FONT-SIZE:8pt;FONT-FAMILY:Wingdings;mso-bidi-font-size:10.0pt;mso-fareast-font-family:Wingdings;mso-bidi-font-family:Wingdings'><span style='mso-list:Ignore'>Ø<span style="FONT:7pt 'Times New Roman'">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span>
+				</span><![endif]><span style='FONT-SIZE:8pt;BACKGROUND:white;FONT-FAMILY:Tahoma;mso-bidi-font-size:10.0pt'>Background Compile – see valid and invalid
+syntax as you type command lines.<o:p></o:p></span></p>
+			<p class="MsoNormal" style='MARGIN-LEFT:0.25in;TEXT-INDENT:-0.25in;mso-layout-grid-align:none;mso-list:l1 level1 lfo4;tab-stops:list .25in'><![if 
+				!supportLists]><span style='FONT-SIZE:8pt;FONT-FAMILY:Wingdings;mso-bidi-font-size:10.0pt;mso-fareast-font-family:Wingdings;mso-bidi-font-family:Wingdings'><span style='mso-list:Ignore'>Ø<span style="FONT:7pt 'Times New Roman'">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span>
+				</span><![endif]><span style='FONT-SIZE:8pt;BACKGROUND:white;FONT-FAMILY:Tahoma;mso-bidi-font-size:10.0pt'>Task Pane – new and improved task
+panes such as the Data Explorer pane.<o:p></o:p></span></p>
+			<p class="MsoNormal" style='MARGIN-LEFT:0.25in;TEXT-INDENT:-0.25in;mso-layout-grid-align:none;mso-list:l0 level1 lfo2;tab-stops:list .25in'><![if 
+				!supportLists]><span style='FONT-SIZE:8pt;FONT-FAMILY:Wingdings;mso-bidi-font-size:10.0pt;mso-fareast-font-family:Wingdings;mso-bidi-font-family:Wingdings'><span style='mso-list:Ignore'>Ø<span style="FONT:7pt 'Times New Roman'">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span>
+				</span><![endif]><span style='FONT-SIZE:8pt;BACKGROUND:white;FONT-FAMILY:Tahoma;mso-bidi-font-size:10.0pt'>Extended System Capabilities – no
+limits for arrays, procedure size, and nesting levels.<o:p></o:p></span></p>
+			<p class="MsoNormal" style='MARGIN-LEFT:0.25in;TEXT-INDENT:-0.25in;mso-layout-grid-align:none;mso-list:l0 level1 lfo2;tab-stops:list .25in'><![if 
+				!supportLists]><span style='FONT-SIZE:8pt;FONT-FAMILY:Wingdings;mso-bidi-font-size:10.0pt;mso-fareast-font-family:Wingdings;mso-bidi-font-family:Wingdings'><span style='mso-list:Ignore'>Ø<span style="FONT:7pt 'Times New Roman'">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span>
+				</span><![endif]><span style='FONT-SIZE:8pt;BACKGROUND:white;FONT-FAMILY:Tahoma;mso-bidi-font-size:10.0pt'>String Functions – powerful new
+enhancements for working with strings.<o:p></o:p></span></p>
+			<p class="MsoNormal" style='MARGIN-LEFT:0.25in;TEXT-INDENT:-0.25in;mso-layout-grid-align:none;mso-list:l0 level1 lfo2;tab-stops:list .25in'><![if 
+				!supportLists]><span style='FONT-SIZE:8pt;FONT-FAMILY:Wingdings;mso-bidi-font-size:10.0pt;mso-fareast-font-family:Wingdings;mso-bidi-font-family:Wingdings'><span style='mso-list:Ignore'>Ø<span style="FONT:7pt 'Times New Roman'">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span>
+				</span><![endif]><span class="GramE"><span style='FONT-SIZE:8pt;
+BACKGROUND:white;
+FONT-FAMILY:Tahoma;
+mso-bidi-font-size:10.0pt'>ICASE(</span>
+				</span><span style='FONT-SIZE:8pt;BACKGROUND:white;FONT-FAMILY:Tahoma;mso-bidi-font-size:10.0pt'>) – new inline function similar to DO CASE statement.<o:p></o:p></span></p>
+			<p class="MsoNormal" style='MARGIN-LEFT:0.25in;TEXT-INDENT:-0.25in;mso-layout-grid-align:none;mso-list:l0 level1 lfo2;tab-stops:list .25in'><![if 
+				!supportLists]><span style='FONT-SIZE:8pt;FONT-FAMILY:Wingdings;mso-bidi-font-size:10.0pt;mso-fareast-font-family:Wingdings;mso-bidi-font-family:Wingdings'><span style='mso-list:Ignore'>Ø<span style="FONT:7pt 'Times New Roman'">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span>
+				</span><![endif]><span style='FONT-SIZE:8pt;BACKGROUND:white;FONT-FAMILY:Tahoma;mso-bidi-font-size:10.0pt'>International – greater support for
+use of FontCharSets in applications.<o:p></o:p></span></p>
+			<p class="MsoNormal" style='mso-layout-grid-align:none'><span style='FONT-SIZE:8pt;BACKGROUND:white;FONT-FAMILY:Tahoma;mso-bidi-font-size:10.0pt'><o:p>&nbsp;</o:p>
+				</span></p>
+			<p class="MsoNormal" style='tab-stops:670.5pt'><span style='FONT-SIZE:8pt;
+BACKGROUND:white;
+FONT-FAMILY:Tahoma;
+mso-bidi-font-size:10.0pt'><o:p>&nbsp;</o:p>
+				</span></p>
+			<p class="MsoNormal" style='tab-stops:670.5pt'><span style='FONT-SIZE:8pt;
+BACKGROUND:white;
+FONT-FAMILY:Tahoma;
+mso-bidi-font-size:12.0pt'><o:p>&nbsp;</o:p>
+				</span></p>
+		</div>
+	</body>
+</html>

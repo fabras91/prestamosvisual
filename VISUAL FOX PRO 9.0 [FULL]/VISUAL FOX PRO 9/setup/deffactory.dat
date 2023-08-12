@@ -1,0 +1,10 @@
+[Version]
+Signature="$CHICAGO$"
+Provider="Visual FoxPro 9.0 Professional - English"
+
+[Scenario List]
+CltScen.dll
+
+[Scenario Factory Information]
+Null String
+

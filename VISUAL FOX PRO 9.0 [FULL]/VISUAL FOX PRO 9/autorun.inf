@@ -1,0 +1,3 @@
+[autorun]
+Open=vfpstart.exe IE5="vfpstart.hta" IELess="vfpstart.htm"
+Icon=setup.exe,0 

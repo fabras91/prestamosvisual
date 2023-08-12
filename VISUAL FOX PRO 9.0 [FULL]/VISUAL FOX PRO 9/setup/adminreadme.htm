@@ -1,0 +1,846 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<html xmlns:v="urn:schemas-microsoft-com:vml"
+xmlns:o="urn:schemas-microsoft-com:office:office"
+xmlns:w="urn:schemas-microsoft-com:office:word"
+xmlns="http://www.w3.org/TR/REC-html40">
+	
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=windows-1252">
+<meta name=ProgId content=Word.Document>
+<meta name=Generator content="Microsoft Word 10">
+<meta name=Originator content="Microsoft Word 10">
+<link rel=File-List href="adminreadme_files/filelist.xml">
+<title>Microsoft Visual FoxPro 9.0</title>
+<!--[if gte mso 9]><xml>
+ <o:DocumentProperties>
+  <o:Author>Jay Jones</o:Author>
+  <o:LastAuthor>Jay Jones</o:LastAuthor>
+  <o:Revision>6</o:Revision>
+  <o:TotalTime>11</o:TotalTime>
+  <o:Created>2002-04-06T02:55:00Z</o:Created>
+  <o:LastSaved>2003-04-11T21:39:00Z</o:LastSaved>
+  <o:Pages>1</o:Pages>
+  <o:Words>416</o:Words>
+  <o:Characters>2374</o:Characters>
+  <o:Company>Microsoft Corporation</o:Company>
+  <o:Lines>19</o:Lines>
+  <o:Paragraphs>5</o:Paragraphs>
+  <o:CharactersWithSpaces>2785</o:CharactersWithSpaces>
+  <o:Version>10.3501</o:Version>
+ </o:DocumentProperties>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <w:WordDocument>
+  <w:Zoom>BestFit</w:Zoom>
+  <w:SpellingState>Clean</w:SpellingState>
+  <w:GrammarState>Clean</w:GrammarState>
+  <w:BrowserLevel>MicrosoftInternetExplorer4</w:BrowserLevel>
+ </w:WordDocument>
+</xml><![endif]-->
+<style>
+<!--
+a:hover { color: #3366ff; }
+pre.SYNTAX
+	{cursor:text;}
+.TOC
+	{cursor:hand;}
+A.toc:HOVER { color: #3366ff; text-decoration: none; }
+
+ /* Font Definitions */
+ @font-face
+	{font-family:Tahoma;
+	panose-1:2 11 6 4 3 5 4 4 2 4;
+	mso-font-charset:0;
+	mso-generic-font-family:swiss;
+	mso-font-pitch:variable;
+	mso-font-signature:1627421319 -2147483648 8 0 66047 0;}
+@font-face
+	{font-family:Verdana;
+	panose-1:2 11 6 4 3 5 4 4 2 4;
+	mso-font-charset:0;
+	mso-generic-font-family:swiss;
+	mso-font-pitch:variable;
+	mso-font-signature:536871559 0 0 0 415 0;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-parent:"";
+	margin:0in;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";
+	mso-believe-normal-left:yes;}
+h1
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:6.0pt;
+	margin-left:-.15in;
+	mso-pagination:widow-orphan;
+	mso-outline-level:1;
+	font-size:23.0pt;
+	font-family:Verdana;
+	font-weight:bold;}
+h2
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:6.0pt;
+	margin-left:-.15in;
+	mso-pagination:widow-orphan;
+	mso-outline-level:2;
+	font-size:14.5pt;
+	font-family:Verdana;
+	font-weight:bold;}
+h3
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:6.0pt;
+	margin-left:-.15in;
+	mso-pagination:widow-orphan;
+	mso-outline-level:3;
+	font-size:14.5pt;
+	font-family:Verdana;
+	font-weight:bold;}
+h4
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:6.0pt;
+	margin-left:-.15in;
+	mso-pagination:widow-orphan;
+	mso-outline-level:4;
+	font-size:13.0pt;
+	font-family:Verdana;
+	font-weight:bold;}
+h5
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:6.0pt;
+	margin-left:-.15in;
+	mso-pagination:widow-orphan;
+	mso-outline-level:5;
+	font-size:12.0pt;
+	font-family:Verdana;
+	font-weight:bold;}
+a:link, span.MsoHyperlink
+	{color:blue;
+	text-decoration:underline;
+	text-underline:single;}
+a:visited, span.MsoHyperlinkFollowed
+	{color:#666699;
+	text-decoration:underline;
+	text-underline:single;}
+p.MsoDocumentMap, li.MsoDocumentMap, div.MsoDocumentMap
+	{mso-style-noshow:yes;
+	margin:0in;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	background:navy;
+	font-size:12.0pt;
+	font-family:Tahoma;
+	mso-fareast-font-family:"Times New Roman";}
+p
+	{margin-top:6.0pt;
+	margin-right:0in;
+	margin-bottom:6.0pt;
+	margin-left:0in;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";}
+code
+	{mso-ansi-font-size:12.0pt;
+	mso-bidi-font-size:12.0pt;
+	font-family:"Courier New";
+	mso-ascii-font-family:"Courier New";
+	mso-fareast-font-family:"Times New Roman";
+	mso-hansi-font-family:"Courier New";
+	mso-bidi-font-family:"Courier New";
+	color:#000066;}
+pre
+	{margin-top:6.0pt;
+	margin-right:0in;
+	margin-bottom:6.0pt;
+	margin-left:0in;
+	mso-pagination:widow-orphan;
+	tab-stops:45.8pt 91.6pt 137.4pt 183.2pt 229.0pt 274.8pt 320.6pt 366.4pt 412.2pt 458.0pt 503.8pt 549.6pt 595.4pt 641.2pt 687.0pt 732.8pt;
+	font-size:12.0pt;
+	font-family:"Courier New";
+	mso-fareast-font-family:"Times New Roman";
+	color:#000066;}
+p.label, li.label, div.label
+	{mso-style-name:label;
+	margin-top:12.0pt;
+	margin-right:0in;
+	margin-bottom:6.0pt;
+	margin-left:0in;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";}
+p.labelproc, li.labelproc, div.labelproc
+	{mso-style-name:labelproc;
+	margin-top:12.0pt;
+	margin-right:0in;
+	margin-bottom:6.0pt;
+	margin-left:0in;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";
+	color:#000066;}
+p.toc, li.toc, div.toc
+	{mso-style-name:toc;
+	margin-top:6.0pt;
+	margin-right:0in;
+	margin-bottom:6.0pt;
+	margin-left:0in;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";
+	color:black;
+	font-weight:bold;}
+p.normal, li.normal, div.normal
+	{mso-style-name:normal;
+	margin-top:6.0pt;
+	margin-right:0in;
+	margin-bottom:6.0pt;
+	margin-left:0in;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";}
+p.fineprint, li.fineprint, div.fineprint
+	{mso-style-name:fineprint;
+	margin-top:6.0pt;
+	margin-right:0in;
+	margin-bottom:6.0pt;
+	margin-left:0in;
+	mso-pagination:widow-orphan;
+	font-size:11.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";}
+p.indent, li.indent, div.indent
+	{mso-style-name:indent;
+	margin-top:6.0pt;
+	margin-right:.25in;
+	margin-bottom:6.0pt;
+	margin-left:.25in;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";}
+p.code, li.code, div.code
+	{mso-style-name:code;
+	margin-top:6.0pt;
+	margin-right:0in;
+	margin-bottom:6.0pt;
+	margin-left:0in;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Courier New";
+	mso-fareast-font-family:"Times New Roman";
+	color:#000066;}
+p.dttable, li.dttable, div.dttable
+	{mso-style-name:dttable;
+	margin-top:6.0pt;
+	margin-right:0in;
+	margin-bottom:6.0pt;
+	margin-left:0in;
+	mso-pagination:widow-orphan;
+	border:none;
+	mso-border-alt:solid #999999 .25pt;
+	padding:0in;
+	mso-padding-alt:0in 0in 0in 0in;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";}
+p.tl, li.tl, div.tl
+	{mso-style-name:tl;
+	margin-top:6.0pt;
+	margin-right:0in;
+	margin-bottom:9.0pt;
+	margin-left:0in;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";}
+p.atl, li.atl, div.atl
+	{mso-style-name:atl;
+	margin-top:6.0pt;
+	margin-right:0in;
+	margin-bottom:6.0pt;
+	margin-left:0in;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";}
+p.cfe, li.cfe, div.cfe
+	{mso-style-name:cfe;
+	margin-top:6.0pt;
+	margin-right:0in;
+	margin-bottom:6.0pt;
+	margin-left:0in;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";
+	font-weight:bold;}
+p.dt, li.dt, div.dt
+	{mso-style-name:dt;
+	margin-top:6.0pt;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:0in;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";}
+p.rev, li.rev, div.rev
+	{mso-style-name:rev;
+	margin-top:6.0pt;
+	margin-right:.25in;
+	margin-bottom:6.0pt;
+	margin-left:.25in;
+	mso-pagination:widow-orphan;
+	border:none;
+	mso-border-alt:double red 2.25pt;
+	padding:0in;
+	mso-padding-alt:0in 0in 0in 0in;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";
+	color:red;}
+p.NormalWeb1, li.NormalWeb1, div.NormalWeb1
+	{mso-style-name:"Normal \(Web\)1";
+	margin-top:6.0pt;
+	margin-right:0in;
+	margin-bottom:6.0pt;
+	margin-left:0in;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";}
+p.NormalWeb2, li.NormalWeb2, div.NormalWeb2
+	{mso-style-name:"Normal \(Web\)2";
+	margin-top:6.0pt;
+	margin-right:0in;
+	margin-bottom:6.0pt;
+	margin-left:0in;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";}
+p.NormalWeb3, li.NormalWeb3, div.NormalWeb3
+	{mso-style-name:"Normal \(Web\)3";
+	margin-top:6.0pt;
+	margin-right:0in;
+	margin-bottom:6.0pt;
+	margin-left:0in;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";}
+p.label1, li.label1, div.label1
+	{mso-style-name:label1;
+	margin-top:6.0pt;
+	margin-right:0in;
+	margin-bottom:6.0pt;
+	margin-left:0in;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";}
+p.label2, li.label2, div.label2
+	{mso-style-name:label2;
+	margin-top:6.0pt;
+	margin-right:0in;
+	margin-bottom:6.0pt;
+	margin-left:0in;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";}
+p.NormalWeb4, li.NormalWeb4, div.NormalWeb4
+	{mso-style-name:"Normal \(Web\)4";
+	margin-top:6.0pt;
+	margin-right:0in;
+	margin-bottom:6.0pt;
+	margin-left:0in;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";}
+p.NormalWeb5, li.NormalWeb5, div.NormalWeb5
+	{mso-style-name:"Normal \(Web\)5";
+	margin-top:6.0pt;
+	margin-right:0in;
+	margin-bottom:6.0pt;
+	margin-left:0in;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";}
+p.NormalWeb6, li.NormalWeb6, div.NormalWeb6
+	{mso-style-name:"Normal \(Web\)6";
+	margin-top:6.0pt;
+	margin-right:0in;
+	margin-bottom:6.0pt;
+	margin-left:0in;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";}
+p.label3, li.label3, div.label3
+	{mso-style-name:label3;
+	margin-top:6.0pt;
+	margin-right:0in;
+	margin-bottom:6.0pt;
+	margin-left:0in;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";}
+p.label4, li.label4, div.label4
+	{mso-style-name:label4;
+	margin-top:6.0pt;
+	margin-right:0in;
+	margin-bottom:6.0pt;
+	margin-left:0in;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";}
+p.code1, li.code1, div.code1
+	{mso-style-name:code1;
+	margin-top:6.0pt;
+	margin-right:0in;
+	margin-bottom:6.0pt;
+	margin-left:0in;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Courier New";
+	mso-fareast-font-family:"Times New Roman";
+	color:#000066;}
+span.SpellE
+	{mso-style-name:"";
+	mso-spl-e:yes;}
+span.GramE
+	{mso-style-name:"";
+	mso-gram-e:yes;}
+@page Section1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.25in 1.0in 1.25in;
+	mso-header-margin:.5in;
+	mso-footer-margin:.5in;
+	mso-paper-source:0;}
+div.Section1
+	{page:Section1;}
+ /* List Definitions */
+ @list l0
+	{mso-list-id:898513180;
+	mso-list-template-ids:1116492988;}
+@list l0:level1
+	{mso-level-tab-stop:.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l0:level2
+	{mso-level-tab-stop:1.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l0:level3
+	{mso-level-tab-stop:1.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l0:level4
+	{mso-level-tab-stop:2.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l0:level5
+	{mso-level-tab-stop:2.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l0:level6
+	{mso-level-tab-stop:3.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l0:level7
+	{mso-level-tab-stop:3.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l0:level8
+	{mso-level-tab-stop:4.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l0:level9
+	{mso-level-tab-stop:4.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l1
+	{mso-list-id:1158808983;
+	mso-list-template-ids:962247060;}
+@list l1:level1
+	{mso-level-tab-stop:.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l1:level2
+	{mso-level-tab-stop:1.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l1:level3
+	{mso-level-tab-stop:1.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l1:level4
+	{mso-level-tab-stop:2.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l1:level5
+	{mso-level-tab-stop:2.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l1:level6
+	{mso-level-tab-stop:3.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l1:level7
+	{mso-level-tab-stop:3.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l1:level8
+	{mso-level-tab-stop:4.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l1:level9
+	{mso-level-tab-stop:4.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l2
+	{mso-list-id:1200702883;
+	mso-list-template-ids:-2120734388;}
+@list l2:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l2:level2
+	{mso-level-tab-stop:1.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l2:level3
+	{mso-level-tab-stop:1.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l2:level4
+	{mso-level-tab-stop:2.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l2:level5
+	{mso-level-tab-stop:2.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l2:level6
+	{mso-level-tab-stop:3.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l2:level7
+	{mso-level-tab-stop:3.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l2:level8
+	{mso-level-tab-stop:4.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l2:level9
+	{mso-level-tab-stop:4.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l3
+	{mso-list-id:1470513010;
+	mso-list-template-ids:1592139558;}
+@list l3:level1
+	{mso-level-tab-stop:.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l3:level2
+	{mso-level-tab-stop:1.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l3:level3
+	{mso-level-tab-stop:1.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l3:level4
+	{mso-level-tab-stop:2.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l3:level5
+	{mso-level-tab-stop:2.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l3:level6
+	{mso-level-tab-stop:3.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l3:level7
+	{mso-level-tab-stop:3.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l3:level8
+	{mso-level-tab-stop:4.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l3:level9
+	{mso-level-tab-stop:4.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+ol
+	{margin-bottom:0in;}
+ul
+	{margin-bottom:0in;}
+-->
+</style>
+<!--[if gte mso 10]>
+<style>
+ /* Style Definitions */
+ table.MsoNormalTable
+	{mso-style-name:"Table Normal";
+	mso-tstyle-rowband-size:0;
+	mso-tstyle-colband-size:0;
+	mso-style-noshow:yes;
+	mso-style-parent:"";
+	mso-padding-alt:0in 5.4pt 0in 5.4pt;
+	mso-para-margin:0in;
+	mso-para-margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Times New Roman";}
+</style>
+<![endif]--><![if mso 9]>
+<style>
+p.MsoNormal
+	{margin-left:12.5pt;}
+</style>
+<![endif]><!--[if gte mso 9]><xml>
+ <o:shapedefaults v:ext="edit" spidmax="2050"/>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <o:shapelayout v:ext="edit">
+  <o:idmap v:ext="edit" data="1"/>
+ </o:shapelayout></xml><![endif]-->
+</head>
+
+	
+
+<body bgcolor=white lang=EN-US link=blue vlink="#666699" style='tab-interval:
+.5in;margin-left:12.5pt;margin-top:.85pt;margin-right:4.15pt' topmargin=0
+id=bodyID>
+
+<div class=Section1>
+
+<h2><span style='font-size:10.0pt;color:black'>Microsoft Visual FoxPro 9.0</span></h2>
+
+<h1><span style='font-size:16.0pt;color:black'>Setup Administrator Mode <span
+class=SpellE>Readme</span><o:p></o:p></span></h1>
+
+<h2><a name=introduction><span style='font-size:10.0pt;color:black'>1.
+Introduction<o:p></o:p></span></a></h2>
+
+<p><span style='mso-bookmark:introduction'><span style='font-size:8.5pt;
+font-family:Verdana;color:black'>Microsoft Visual FoxPro version 9.0 offers an
+administrator mode setup, which facilitates deployment to field clients. The
+administrator initially runs setup to select which features will be deployed.
+An .INI file is created based on this selection, and is then deployed by
+running setup in <span class=SpellE>unattend</span> mode, pointing to the
+generated .INI file. When run in <span class=SpellE>unattend</span> mode, setup
+runs silently installing the designated options. If there are any errors, <span
+class=GramE>setups exits</span> silently with failure. This allows deployment
+through Windows XP, Windows 2000 or Microsoft Systems Management Server.</span>
+</span><span style='mso-bookmark:introduction'><span style='font-size:8.5pt;
+font-family:Verdana;color:black'><o:p></o:p></span></span></p>
+
+<span style='mso-bookmark:introduction'></span>
+
+<h2><span style='font-size:10.0pt;color:black'>2. Running Administrator Mode
+Setup<o:p></o:p></span></h2>
+
+<p class=labelproc><b><span style='font-size:8.5pt;font-family:Verdana'>To
+create the deployment .INI file</span></b><span style='font-size:8.5pt;
+font-family:Verdana'> <o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;margin-bottom:6.0pt;
+margin-left:24.0pt;text-indent:-.25in;mso-list:l0 level1 lfo2;tab-stops:list .5in'><![if !supportLists]><span
+style='font-size:8.5pt;font-family:Verdana;mso-fareast-font-family:Verdana;
+mso-bidi-font-family:Verdana;color:black'><span style='mso-list:Ignore'>1.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span
+style='font-size:8.5pt;font-family:Verdana;color:black'>Insert the Visual
+FoxPro version 9.0 CD and ignore the <span class=SpellE>autorun</span> message.
+<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;margin-bottom:6.0pt;
+margin-left:24.0pt;text-indent:-.25in;mso-list:l0 level1 lfo2;tab-stops:list .5in'><![if !supportLists]><span
+style='font-size:8.5pt;font-family:Verdana;mso-fareast-font-family:Verdana;
+mso-bidi-font-family:Verdana;color:black'><span style='mso-list:Ignore'>2.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span
+style='font-size:8.5pt;font-family:Verdana;color:black'>Choose the <b>Start</b>
+menu and then choose <b>Run</b>. <o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;margin-bottom:6.0pt;
+margin-left:24.0pt;text-indent:-.25in;mso-list:l0 level1 lfo2;tab-stops:list .5in'><![if !supportLists]><span
+style='font-size:8.5pt;font-family:Verdana;mso-fareast-font-family:Verdana;
+mso-bidi-font-family:Verdana;color:black'><span style='mso-list:Ignore'>3.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span
+style='font-size:8.5pt;font-family:Verdana;color:black'>Type the following: <o:p></o:p></span></p>
+
+<p class=code1 style='margin-left:24.0pt'><i><span style='font-size:8.5pt'>n</span></i><span
+style='font-size:8.5pt'>:\setup\Setup.exe /<span class=SpellE>createunattend</span>
+&lt;<i>path to .INI file</i>&gt;<o:p></o:p></span></p>
+
+<p class=NormalWeb5 style='margin-left:24.0pt'><span style='font-size:8.5pt;
+font-family:Verdana;color:black'>For example:<o:p></o:p></span></p>
+
+<p class=code1 style='margin-left:24.0pt'><span style='font-size:8.5pt'>D:\setup\setup.exe
+/<span class=SpellE>createunattend</span> c:\vfp9_deployment.ini<o:p></o:p></span></p>
+
+<p><span style='font-size:8.5pt;font-family:Verdana;color:black'>Before running
+in <span class=SpellE>createunattend</span> mode, you must first run Windows
+Component Update setup on your machine.&nbsp; Some of the components installed
+by the update are required for Visual FoxPro setup to function.<o:p></o:p></span></p>
+
+<p class=labelproc><b><span style='font-size:8.5pt;font-family:Verdana'>To run
+setup with the generated file on a client</span></b><span style='font-size:
+8.5pt;font-family:Verdana'> <o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;margin-bottom:6.0pt;
+margin-left:24.0pt;text-indent:-.25in;mso-list:l3 level1 lfo4;tab-stops:list .5in'><![if !supportLists]><span
+style='font-size:8.5pt;font-family:Verdana;mso-fareast-font-family:Verdana;
+mso-bidi-font-family:Verdana;color:black'><span style='mso-list:Ignore'>1.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span
+style='font-size:8.5pt;font-family:Verdana;color:black'>Verify that Visual
+FoxPro is available on the network (see <span class=GramE>Creating</span> a
+Network Image). <o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;margin-bottom:6.0pt;
+margin-left:24.0pt;text-indent:-.25in;mso-list:l3 level1 lfo4;tab-stops:list .5in'><![if !supportLists]><span
+style='font-size:8.5pt;font-family:Verdana;mso-fareast-font-family:Verdana;
+mso-bidi-font-family:Verdana;color:black'><span style='mso-list:Ignore'>2.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span
+style='font-size:8.5pt;font-family:Verdana;color:black'>Choose the <b>Start</b>
+menu and then choose <b>Run</b>. <o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;margin-bottom:6.0pt;
+margin-left:24.0pt;text-indent:-.25in;mso-list:l3 level1 lfo4;tab-stops:list .5in'><![if !supportLists]><span
+style='font-size:8.5pt;font-family:Verdana;mso-fareast-font-family:Verdana;
+mso-bidi-font-family:Verdana;color:black'><span style='mso-list:Ignore'>3.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span
+style='font-size:8.5pt;font-family:Verdana;color:black'>Type the following: <o:p></o:p></span></p>
+
+<p class=code1 style='margin-left:24.0pt'><span style='font-size:8.5pt'>\...\setup\Setup.exe
+/<span class=SpellE>unattendfile</span> &lt;<i>path to .INI file</i>&gt;<o:p></o:p></span></p>
+
+<p class=NormalWeb5 style='margin-left:24.0pt'><span style='font-size:8.5pt;
+font-family:Verdana;color:black'>For example:<o:p></o:p></span></p>
+
+<p class=code1 style='margin-left:24.0pt'><span style='font-size:8.5pt'>\\computer\share\setup\setup.exe
+/<span class=SpellE>unattendfile</span> \\computer\share\vfp9_deployment.ini<o:p></o:p></span></p>
+
+<h2><span style='font-size:10.0pt;color:black'>3. Creating a Network Image<o:p></o:p></span></h2>
+
+<p><span style='font-size:8.5pt;font-family:Verdana;color:black'>Administrator
+setup is designed to run from a network image, rather than CDs.&nbsp; To prepare
+a network image of the Visual FoxPro CD:<o:p></o:p></span></p>
+
+<blockquote style='margin-left:24.0pt;margin-top:6.0pt;margin-right:.25in;
+margin-bottom:6.0pt'>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;margin-bottom:6.0pt;
+margin-left:24.0pt;text-indent:-.25in;mso-list:l1 level1 lfo6;tab-stops:list .5in'><![if !supportLists]><span
+style='font-size:8.5pt;font-family:Verdana;mso-fareast-font-family:Verdana;
+mso-bidi-font-family:Verdana;color:black'><span style='mso-list:Ignore'>1.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span
+style='font-size:8.5pt;font-family:Verdana;color:black'>Insert Visual FoxPro
+version 9.0 CD into your CD-ROM or DVD drive.<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;margin-bottom:6.0pt;
+margin-left:24.0pt;text-indent:-.25in;mso-list:l1 level1 lfo6;tab-stops:list .5in'><![if !supportLists]><span
+style='font-size:8.5pt;font-family:Verdana;mso-fareast-font-family:Verdana;
+mso-bidi-font-family:Verdana;color:black'><span style='mso-list:Ignore'>2.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span
+style='font-size:8.5pt;font-family:Verdana;color:black'>Open the CD drive in
+Windows Explorer.<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;margin-bottom:6.0pt;
+margin-left:24.0pt;text-indent:-.25in;mso-list:l1 level1 lfo6;tab-stops:list .5in'><![if !supportLists]><span
+style='font-size:8.5pt;font-family:Verdana;mso-fareast-font-family:Verdana;
+mso-bidi-font-family:Verdana;color:black'><span style='mso-list:Ignore'>3.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span
+style='font-size:8.5pt;font-family:Verdana;color:black'>Press CTRL+A to select
+all, and then copy the selection to a folder of your choice.<o:p></o:p></span></p>
+
+</blockquote>
+
+<p><span style='font-size:8.5pt;font-family:Verdana;color:black'>As a result,
+you will have a single folder with the content of the disk.<o:p></o:p></span></p>
+
+<h2><span style='font-size:10.0pt;color:black'>4. Installation Maintenance<o:p></o:p></span></h2>
+
+<p><span style='font-size:8.5pt;font-family:Verdana;color:black'>Setup can be
+run again on a machine with an existing installation. This should be done by
+the administrator running in <span class=SpellE>createunattend</span> mode on a
+master machine that had the same install as the client machines. Changes to the
+feature state can then be deployed to clients.<o:p></o:p></span></p>
+
+<p><span style='font-size:8.5pt;font-family:Verdana;color:black'>Clients should
+not run setup from <b>Add/Remove Programs</b> in Control Panel (or any other
+means) on their own. This will cause a discontinuity in the feature state. All
+changes should come from setup being run with <span class=GramE>an</span> <span
+class=SpellE>unattendfile</span> switch.<o:p></o:p></span></p>
+
+<h2><span style='font-size:10.0pt;color:black'>5. Required Baseline Components<o:p></o:p></span></h2>
+
+<p><span style='font-size:8.5pt;font-family:Verdana;color:black'>The following
+is a list of components required for Visual FoxPro 9.0. Unattended setup will
+fail if any component is not installed.<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;margin-bottom:6.0pt;
+margin-left:24.0pt;text-indent:-.25in;mso-list:l2 level1 lfo8;tab-stops:list .5in'><![if !supportLists]><span
+style='font-size:10.0pt;mso-bidi-font-size:8.5pt;font-family:Symbol;mso-fareast-font-family:
+Symbol;mso-bidi-font-family:Symbol;color:black'><span style='mso-list:Ignore'>·<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span
+style='font-size:8.5pt;font-family:Verdana;color:black'>Microsoft Windows
+Installer 2.0<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;margin-bottom:6.0pt;
+margin-left:24.0pt;text-indent:-.25in;mso-list:l2 level1 lfo8;tab-stops:list .5in'><![if !supportLists]><span
+style='font-size:10.0pt;mso-bidi-font-size:8.5pt;font-family:Symbol;mso-fareast-font-family:
+Symbol;mso-bidi-font-family:Symbol;color:black'><span style='mso-list:Ignore'>·<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span
+style='font-size:8.5pt;font-family:Verdana;color:black'>Setup Runtime Files <o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;margin-bottom:6.0pt;
+margin-left:24.0pt;text-indent:-.25in;mso-list:l2 level1 lfo8;tab-stops:list .5in'><![if !supportLists]><span
+style='font-size:10.0pt;mso-bidi-font-size:8.5pt;font-family:Symbol;mso-fareast-font-family:
+Symbol;mso-bidi-font-family:Symbol;color:black'><span style='mso-list:Ignore'>·<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span
+style='font-size:8.5pt;font-family:Verdana;color:black'>Microsoft Data Access
+Components 2.7<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;margin-bottom:6.0pt;
+margin-left:24.0pt;text-indent:-.25in;mso-list:l2 level1 lfo8;tab-stops:list .5in'><![if !supportLists]><span
+style='font-size:10.0pt;mso-bidi-font-size:8.5pt;font-family:Symbol;mso-fareast-font-family:
+Symbol;mso-bidi-font-family:Symbol;color:black'><span style='mso-list:Ignore'>·<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span
+style='font-size:8.5pt;font-family:Verdana;color:black'>Microsoft SOAP Toolkit
+3.0<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;margin-bottom:6.0pt'><span
+style='font-size:8.5pt;font-family:Verdana;color:black'><o:p>&nbsp;</o:p></span></p>
+
+</div>
+
+</body>
+
+</html>

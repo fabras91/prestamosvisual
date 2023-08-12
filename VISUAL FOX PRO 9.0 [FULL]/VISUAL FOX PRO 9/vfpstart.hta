@@ -1,0 +1,64 @@
+<html>
+
+<head>
+<title>Microsoft Visual FoxPro Setup</title>
+<HTA:APPLICATION ID="VFP9START_HTA" APPLICATIONNAME="VFP9START_HTA" WINDOWSTATE="normal">
+</head>
+
+<body background="webart.jpg" topmargin="10" leftmargin="10">
+<FRAME APPLICATION="yes">
+<h1><font face="Tahoma"><span style="font-weight: 400">Microsoft Visual FoxPro 9.0 Setup</span></h1>
+<p>&nbsp;</p>
+<p><b>Welcome to Visual FoxPro 9.0!</b></p>
+<p><font size="2">The information on this page will help you install all of the components provided with Visual FoxPro 9.0.</p>
+<p>For additional setup information and late-breaking product information, 
+consult the <a HREF="Readme.htm">Visual FoxPro Readme</a>.</p>
+<ul>
+  <li><b><a href="setup.exe" onclick="RunSetupApp(1)">Install Visual FoxPro</a></b> <br>
+  Select this link to launch the Visual FoxPro Installation wizard. To install Visual 
+  FoxPro components, including any required software components, follow the instructions in the Installation wizard.<br>
+  </li>
+  <p></p>
+  <li><b><a href="InstallShield/ISXFoxPro.exe" onclick="RunSetupApp(2)">Install InstallShield Express</a></b>
+  <br>
+  A special Visual FoxPro version of InstallShield Express is provided to facilitate 
+  the packaging and deployment of the applications you create using Visual FoxPro. 
+  Select this link to install the InstallShield deployment program. 
+  <strong>Note:</strong> You must have Administrator privileges in order to install this application.<br>
+  </li>
+  <p></p>
+  <li><b><a href="SOAP Toolkit/soapsamp.msi" onclick="RunSetupApp(4)">Install SOAP 3.0 Samples</a></b>
+  <br>
+  Visual FoxPro provides support for your applications to consume Web services over 
+  the Internet. You can also create and publish Web services from your Visual FoxPro
+  COM servers. The SOAP 3.0 SDK is installed by the Visual FoxPro 9 setup. 
+  Select this link to install the SOAP Samples.<br>
+  </li>
+  <p></p>
+  <li><b><a href="SQLMSDE/Readme.txt">Install Microsoft SQL Server 2000 Desktop Engine (MSDE)</a></b><br>
+  Visual FoxPro includes Microsoft SQL Server 2000 Desktop Engine Service Pack 3.0a. To make sure you have the most recent version and Service Pack installed, visit the Microsoft SQL Server Web page at <a href="http://www.microsoft.com/sql/default.asp">http://www.microsoft.com/sql/default.asp</a>. In addition, if you are distributing custom Visual FoxPro applications that require MSDE, you can obtain distributable merge modules from the Microsoft SQL Server Web page for use with Windows Installer-based setup programs. You will need to provide a secure SA password when installing MSDE. See the <a href="SQLMSDE/sp3readme.htm">MSDE readme file</a> for details. When you're ready to install, run setup.exe from the <a href="SQLMSDE">SQLMSDE folder on the CD</a>.<br>
+  </li>
+</ul>
+</font></font>
+</FRAME>
+</body>
+
+<script language="VBScript">
+Function RunSetupApp(nAppValue)
+  Dim oWScript
+  Set oWScript = CreateObject("WScript.Shell")
+  SELECT CASE nAppValue
+    CASE 1  oWScript.Run("setup.exe")
+    CASE 2  oWScript.Run("InstallShield\ISXFoxPro.exe")
+    CASE 4  oWScript.Run("SOAPToolkit\soapsamp.msi")
+'    CASE 5  
+'	IF MSGBOX("Would you like to Install MSDE now?",36,"Install")=6 THEN
+'	    oWScript.Run("SQLMSDE\setup.exe")
+'	END IF
+  END SELECT
+  oWScript = null
+  window.event.returnValue = false
+End Function
+</script>
+
+</html>

@@ -1,0 +1,135 @@
+[Version]
+Signature = "$Windows NT$"
+Provider=Microsoft Visual FoxPro 9.0 Prerequisites - English
+Version=700.100.01
+NullString=Null String
+Lang=1033
+
+;this section exists for Cartman use
+[Display Pages]
+GFN_DPID Component Selection Page
+GFN_DPID Data Directory Page
+GFN_DPID Service Account Page
+<component pages>
+GFN_DPID Summary Page
+
+;the [Complete Component List] is required by cartman
+[Complete Component List]
+GFN_MID Windows Installer 2.0 NT
+GFN_MID Setup Files
+GFN_MID MDAC 2.8
+GFN_MID SOAP 3 SDK
+
+[gencomp13.dll]
+moduleid=F0BB11CB-414A-4538-8ED9-23A52121934C
+GFN=GFN_MID Windows Installer 2.0 NT
+ComponentName=Microsoft Windows Installer 2.0 [NT]
+VersionCheck=FileVersionCheck
+DetectFile=[winsys]msi.dll
+DetectFileVersion=2.0.2600.0
+IgnoreLaterVersions=0
+ReturnType=Win32ReturnCheck
+CommandLine=/R:N /Q
+EstInstallTime=21
+CleanCost=11000000
+version guid=0E31E327-6837-49bb-90C7-AEFC94EC5F7C
+version string=2.0
+Executable=InstMsiW.exe
+Reboot=1
+LangSensitive=neutral
+EncryptionOpt=0
+InstallOnWin98Gold=0
+InstallOnWin98SE=1
+InstallOnWinNT4=1
+InstallOnWin2k=1
+InstallOnWinMe=0
+InstallOnWhistler=0
+InstallOnFutureNT=0
+
+[gencomp17.dll]
+moduleid=D81A7DE0-C77E-419b-B83D-D53AB984CC1A
+GFN=GFN_MID Setup Files
+ComponentName=Setup Runtime Files
+VersionCheck=MsiVersionCheck
+UpgradeCode={37D8DA66-1FFD-44BA-A5E8-B3900AB69128}
+MajorVersion=9
+MinorVersion=0
+IgnoreLaterVersions=0
+ReturnType=Win32ReturnCheck
+CommandLine=[winsys]msiexec.exe|/qn /i "[apppath]bootstrap.msi" TRANSFORMS="[apppath]VFP_Trnsfrm_BS.mst"  REBOOT=ReallySuppress REINSTALLMODE=vemus
+EstInstallTime=11
+CleanCost=5236151
+version guid=B37E2887-E4ED-4317-B628-B5364905803D
+version string=1.0
+Executable=RunProg.exe
+Reboot=0
+LangSensitive=neutral
+EncryptionOpt=0
+InstallOnWin98Gold=1
+InstallOnWin98SE=1
+InstallOnWinNT4=1
+InstallOnWin2k=1
+InstallOnWinMe=1
+InstallOnWhistler=1
+InstallOnFutureNT=1
+
+[gencomp22.dll]
+moduleid=4B4AE149-9BDF-4ffa-A03D-514A5AED8282
+GFN=GFN_MID MDAC 2.8
+ComponentName=Microsoft Data Access Components 2.8
+VersionCheck=MDAC
+DetectKey=HKLM,SOFTWARE\Microsoft\DataAccess
+DetectKeyVal=FullInstallVer
+DetectKeyValData=2.80.1022.3
+DetectKeyValDataMin=2.8.0.0
+IgnoreLaterVersions=0
+ReturnType=MdacReturnCheck
+CommandLine=/q:a /c:"dasetup.exe /Q /N"
+EstInstallTime=99
+CleanCost=21000000
+version guid=16ABFF82-354B-49d9-BA04-18FB96EEE94C
+version string=2.8
+Executable=mdac_typ.exe
+Reboot=0
+LangSensitive=neutral
+EncryptionOpt=0
+InstallOnWin98Gold=1
+InstallOnWin98SE=1
+InstallOnWinNT4=1
+InstallOnWin2k=1
+InstallOnWinMe=1
+InstallOnWhistler=0
+InstallOnFutureNT=0
+
+[gencomp35.dll]
+moduleid=B8491221-AA0B-4fa5-B41A-C1295AA5E0DE
+GFN=GFN_MID SOAP 3 SDK
+ComponentName=Microsoft SOAP Toolkit 3.0
+VersionCheck=FileRegVerCheck
+DetectKey=HKLM,SOFTWARE\Microsoft\MSSOAP\30
+DetectKeyVal=Version Number
+DetectKeyValData=3.00.1325.0
+IgnoreLaterVersions=0
+ReturnType=Win32ReturnCheck
+CommandLine=[winsys]msiexec.exe|/qn /i "[apppath]SOAP3\soapsdk.msi" REBOOT=ReallySuppress
+EstInstallTime=6
+CleanCost=2000000
+version guid=B7E358A4-8B77-4948-951D-469FF7C843F6
+version string=3.0
+Executable=RunProg.exe
+Reboot=0
+LangSensitive=neutral
+EncryptionOpt=0
+InstallOnWin98Gold=1
+InstallOnWin98SE=1
+InstallOnWinNT4=1
+InstallOnWin2k=1
+InstallOnWinMe=1
+InstallOnWhistler=1
+InstallOnFutureNT=0
+
+
+[VS Custom]
+DepCheckLogon=VFPWCU
+OldMDAC=VFPWCU
+

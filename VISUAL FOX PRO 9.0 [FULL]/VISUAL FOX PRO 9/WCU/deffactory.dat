@@ -1,0 +1,11 @@
+[Version]
+Signature="$Windows NT$"
+Provider="Visaul Studio 7.0"
+
+[Scenario List]
+;CustomRio.dll
+vsscenario.dll
+
+[Scenario Factory Information]
+;Default Scenario=<Scenario ID (GUID)>  ;;assigning to the guid for vsscenario
+Default Scenario=11E4C8F3-425E-43b9-B689-8BFDF03342E2

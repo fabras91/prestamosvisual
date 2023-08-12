@@ -1,0 +1,489 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html xmlns:v="urn:schemas-microsoft-com:vml"
+xmlns:o="urn:schemas-microsoft-com:office:office"
+xmlns:w="urn:schemas-microsoft-com:office:word"
+xmlns="http://www.w3.org/TR/REC-html40">
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=windows-1252">
+<meta name=ProgId content=Word.Document>
+<meta name=Generator content="Microsoft Word 10">
+<meta name=Originator content="Microsoft Word 10">
+<link rel=File-List href="moreinfo_files/filelist.xml">
+<title>Microsoft Visual FoxPro 8.0 Windows Component Update</title>
+<!--[if gte mso 9]><xml>
+ <o:DocumentProperties>
+  <o:Author>Jay Jones</o:Author>
+  <o:LastAuthor>Jay Jones</o:LastAuthor>
+  <o:Revision>2</o:Revision>
+  <o:TotalTime>0</o:TotalTime>
+  <o:Created>2003-04-14T22:19:00Z</o:Created>
+  <o:LastSaved>2003-04-14T22:19:00Z</o:LastSaved>
+  <o:Pages>1</o:Pages>
+  <o:Words>312</o:Words>
+  <o:Characters>1781</o:Characters>
+  <o:Company>Microsoft Corporation</o:Company>
+  <o:Lines>14</o:Lines>
+  <o:Paragraphs>4</o:Paragraphs>
+  <o:CharactersWithSpaces>2089</o:CharactersWithSpaces>
+  <o:Version>10.3501</o:Version>
+ </o:DocumentProperties>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <w:WordDocument>
+  <w:Zoom>BestFit</w:Zoom>
+  <w:SpellingState>Clean</w:SpellingState>
+  <w:GrammarState>Clean</w:GrammarState>
+  <w:BrowserLevel>MicrosoftInternetExplorer4</w:BrowserLevel>
+ </w:WordDocument>
+</xml><![endif]-->
+<style>
+<!--
+A:hover {COLOR: #3366ff}
+pre.SYNTAX
+	{cursor:text;}
+
+ /* Font Definitions */
+ @font-face
+	{font-family:Verdana;
+	panose-1:2 11 6 4 3 5 4 4 2 4;
+	mso-font-charset:0;
+	mso-generic-font-family:swiss;
+	mso-font-pitch:variable;
+	mso-font-signature:536871559 0 0 0 415 0;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-parent:"";
+	margin:0in;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";}
+h1
+	{mso-margin-top-alt:auto;
+	margin-right:0in;
+	margin-bottom:6.0pt;
+	margin-left:3.0pt;
+	mso-pagination:widow-orphan;
+	mso-outline-level:1;
+	font-size:13.5pt;
+	font-family:"Times New Roman";
+	font-weight:bold;}
+h2
+	{mso-margin-top-alt:auto;
+	margin-right:0in;
+	margin-bottom:6.0pt;
+	margin-left:3.0pt;
+	mso-pagination:widow-orphan;
+	mso-outline-level:2;
+	font-size:10.0pt;
+	font-family:"Times New Roman";
+	font-weight:bold;}
+a:link, span.MsoHyperlink
+	{color:blue;
+	text-decoration:underline;
+	text-underline:single;}
+a:visited, span.MsoHyperlinkFollowed
+	{color:#666699;
+	text-decoration:underline;
+	text-underline:single;}
+p
+	{mso-margin-top-alt:auto;
+	margin-right:0in;
+	mso-margin-bottom-alt:auto;
+	margin-left:.25in;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";}
+code
+	{mso-ansi-font-size:12.0pt;
+	mso-bidi-font-size:12.0pt;
+	font-family:"Courier New";
+	mso-ascii-font-family:"Courier New";
+	mso-fareast-font-family:"Times New Roman";
+	mso-hansi-font-family:"Courier New";
+	mso-bidi-font-family:"Courier New";
+	color:#000066;}
+pre
+	{margin-top:6.0pt;
+	margin-right:0in;
+	margin-bottom:6.0pt;
+	margin-left:0in;
+	mso-pagination:widow-orphan;
+	tab-stops:45.8pt 91.6pt 137.4pt 183.2pt 229.0pt 274.8pt 320.6pt 366.4pt 412.2pt 458.0pt 503.8pt 549.6pt 595.4pt 641.2pt 687.0pt 732.8pt;
+	font-size:12.0pt;
+	font-family:"Courier New";
+	mso-fareast-font-family:"Times New Roman";
+	color:#000066;}
+p.label, li.label, div.label
+	{mso-style-name:label;
+	mso-margin-top-alt:auto;
+	margin-right:0in;
+	mso-margin-bottom-alt:auto;
+	margin-left:.25in;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";}
+p.banner, li.banner, div.banner
+	{mso-style-name:banner;
+	mso-margin-top-alt:auto;
+	margin-right:0in;
+	mso-margin-bottom-alt:auto;
+	margin-left:.25in;
+	mso-pagination:widow-orphan;
+	background:#6699FF;
+	font-size:10.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";
+	font-weight:bold;}
+p.tblpara, li.tblpara, div.tblpara
+	{mso-style-name:tblpara;
+	mso-margin-top-alt:auto;
+	margin-right:0in;
+	mso-margin-bottom-alt:auto;
+	margin-left:3.0pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";}
+p.code, li.code, div.code
+	{mso-style-name:code;
+	mso-margin-top-alt:auto;
+	margin-right:0in;
+	mso-margin-bottom-alt:auto;
+	margin-left:.25in;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Courier New";
+	mso-fareast-font-family:"Times New Roman";
+	color:#000066;}
+p.NormalWeb1, li.NormalWeb1, div.NormalWeb1
+	{mso-style-name:"Normal \(Web\)1";
+	mso-margin-top-alt:auto;
+	margin-right:0in;
+	mso-margin-bottom-alt:auto;
+	margin-left:0in;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";}
+p.NormalWeb2, li.NormalWeb2, div.NormalWeb2
+	{mso-style-name:"Normal \(Web\)2";
+	mso-margin-top-alt:auto;
+	margin-right:0in;
+	mso-margin-bottom-alt:auto;
+	margin-left:0in;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";}
+p.NormalWeb3, li.NormalWeb3, div.NormalWeb3
+	{mso-style-name:"Normal \(Web\)3";
+	mso-margin-top-alt:auto;
+	margin-right:0in;
+	mso-margin-bottom-alt:auto;
+	margin-left:0in;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";}
+p.label1, li.label1, div.label1
+	{mso-style-name:label1;
+	margin-top:6.0pt;
+	margin-right:0in;
+	mso-margin-bottom-alt:auto;
+	margin-left:0in;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";}
+p.label2, li.label2, div.label2
+	{mso-style-name:label2;
+	margin-top:6.0pt;
+	margin-right:0in;
+	mso-margin-bottom-alt:auto;
+	margin-left:0in;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";}
+span.SpellE
+	{mso-style-name:"";
+	mso-spl-e:yes;}
+span.GramE
+	{mso-style-name:"";
+	mso-gram-e:yes;}
+@page Section1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.25in 1.0in 1.25in;
+	mso-header-margin:.5in;
+	mso-footer-margin:.5in;
+	mso-paper-source:0;}
+div.Section1
+	{page:Section1;}
+ /* List Definitions */
+ @list l0
+	{mso-list-id:236668358;
+	mso-list-template-ids:-506662848;}
+@list l0:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l1
+	{mso-list-id:1155951534;
+	mso-list-template-ids:2024597228;}
+ol
+	{margin-bottom:0in;}
+ul
+	{margin-bottom:0in;}
+-->
+</style>
+<!--[if gte mso 10]>
+<style>
+ /* Style Definitions */
+ table.MsoNormalTable
+	{mso-style-name:"Table Normal";
+	mso-tstyle-rowband-size:0;
+	mso-tstyle-colband-size:0;
+	mso-style-noshow:yes;
+	mso-style-parent:"";
+	mso-padding-alt:0in 5.4pt 0in 5.4pt;
+	mso-para-margin:0in;
+	mso-para-margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Times New Roman";}
+</style>
+<![endif]--><!--[if gte mso 9]><xml>
+ <o:shapedefaults v:ext="edit" spidmax="2050"/>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <o:shapelayout v:ext="edit">
+  <o:idmap v:ext="edit" data="1"/>
+ </o:shapelayout></xml><![endif]-->
+</head>
+
+<body bgcolor=white lang=EN-US link=blue vlink="#666699" style='tab-interval:
+.5in'>
+
+<div class=Section1>
+
+<p class=MsoNormal style='background:#6699FF'><b><span style='font-size:10.0pt;
+font-family:Verdana;color:black'>Microsoft Visual FoxPro 9.0 Prerequisites<o:p></o:p></span></b></p>
+
+<h2><a name=introduction></a><span style='font-family:Verdana;color:black'>1.
+Introduction<o:p></o:p></span></h2>
+
+<p><span style='font-size:10.0pt;font-family:Verdana;color:black'>Visual FoxPro
+requires certain versions of system components to be installed prior to
+installing client components.<o:p></o:p></span></p>
+
+<h2><a name=gettingstarted></a><span style='font-family:Verdana;color:black'>2.
+Required Baseline Components<o:p></o:p></span></h2>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;margin-bottom:6.0pt;
+margin-left:24.0pt;text-indent:-.25in;mso-list:l0 level1 lfo1;tab-stops:list .5in'><![if !supportLists]><span
+style='font-size:10.0pt;font-family:Symbol;mso-fareast-font-family:Symbol;
+mso-bidi-font-family:Symbol;color:black'><span style='mso-list:Ignore'>·<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style='font-size:10.0pt;font-family:Verdana;
+color:black'>Setup Runtime Files <o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;margin-bottom:6.0pt;
+margin-left:24.0pt;text-indent:-.25in;mso-list:l0 level1 lfo1;tab-stops:list .5in'><![if !supportLists]><span
+style='font-size:10.0pt;font-family:Symbol;mso-fareast-font-family:Symbol;
+mso-bidi-font-family:Symbol;color:black'><span style='mso-list:Ignore'>·<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style='font-size:10.0pt;font-family:Verdana;
+color:black'>Microsoft Data Access Components v2.7<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;margin-bottom:6.0pt;
+margin-left:24.0pt;text-indent:-.25in;mso-list:l0 level1 lfo1;tab-stops:list .5in'><![if !supportLists]><span
+style='font-size:10.0pt;font-family:Symbol;mso-fareast-font-family:Symbol;
+mso-bidi-font-family:Symbol;color:black'><span style='mso-list:Ignore'>·<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style='font-size:10.0pt;font-family:Verdana;
+color:black'>Windows Installer 2.0<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;margin-bottom:6.0pt;
+margin-left:24.0pt;text-indent:-.25in;mso-list:l0 level1 lfo1;tab-stops:list .5in'><![if !supportLists]><span
+style='font-size:10.0pt;font-family:Symbol;mso-fareast-font-family:Symbol;
+mso-bidi-font-family:Symbol;color:black'><span style='mso-list:Ignore'>·<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style='font-size:10.0pt;font-family:Verdana;
+color:black'>Microsoft SOAP Toolkit 3.0<o:p></o:p></span></p>
+
+<h2><a name=feedback><span style='font-family:Verdana;color:black'>3. Known
+Installation Issues<o:p></o:p></span></a></h2>
+
+<h2><span style='mso-bookmark:feedback'><span style='font-family:Verdana;
+color:black'>3.1. Hung Installation<o:p></o:p></span></span></h2>
+
+<p><span style='mso-bookmark:feedback'><span style='font-size:10.0pt;
+font-family:Verdana;color:black'>If individual components hang during
+installation, setup may be unable to detect this. Use CTRL+ALT+DELETE to
+manually shutdown the setup.exe task. Note<span class=GramE>,</span>
+installation of larger components can take as long as 20 minutes on slower
+machines or when installed over a network.<o:p></o:p></span></span></p>
+
+<span style='mso-bookmark:feedback'></span>
+
+<h2><span style='font-family:Verdana;color:black'>4. Additional Issues<o:p></o:p></span></h2>
+
+<h2><span style='font-family:Verdana;color:black'>4.1. Diagnosing failures in
+System Component setup<o:p></o:p></span></h2>
+
+<p><span style='font-size:10.0pt;font-family:Verdana;color:black'>You must
+install system component updates before proceeding with&nbsp;Visual FoxPro
+setup. If the installer&nbsp;reports failures for&nbsp;a component at the end
+of setup, you can run the individual&nbsp;setup for the failed
+component&nbsp;to see the&nbsp;specific errors and diagnose problems. The
+location of the components on the Visual FoxPro CD&nbsp;is as
+follows&nbsp;within the WCU folder:<o:p></o:p></span></p>
+
+<table class=MsoNormalTable border=1 cellspacing=3 cellpadding=0
+ style='mso-cellspacing:1.5pt;margin-left:.25in;background:white;border:solid #CCCCCC 1.0pt;
+ mso-border-alt:solid #CCCCCC .5pt'>
+ <tr style='mso-yfti-irow:0'>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin-bottom:12.0pt'><b><span style='font-size:
+  10.0pt;font-family:Verdana;color:black'>Component</span></b><span
+  style='font-size:10.0pt;font-family:Verdana;color:black'><o:p></o:p></span></p>
+  </td>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin-bottom:12.0pt'><b><span style='font-size:
+  10.0pt;font-family:Verdana;color:black'>Location on Visual FoxPro CD (within
+  WCU folder)</span></b><span style='font-size:10.0pt;font-family:Verdana;
+  color:black'><o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:1'>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin-bottom:12.0pt'><span style='font-size:10.0pt;
+  font-family:Verdana;color:black'>Setup Runtime Files<o:p></o:p></span></p>
+  </td>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin-bottom:12.0pt'><span class=SpellE><span
+  style='font-size:10.0pt;font-family:Verdana;color:black'>bootstrap.msi</span></span><span
+  style='font-size:10.0pt;font-family:Verdana;color:black'><o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:2'>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin-bottom:12.0pt'><span style='font-size:10.0pt;
+  font-family:Verdana;color:black'>Microsoft Data Access Components v2.7<o:p></o:p></span></p>
+  </td>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin-bottom:12.0pt'><span style='font-size:10.0pt;
+  font-family:Verdana;color:black'>MDAC27\mdac_typ.exe<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:3'>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin-bottom:12.0pt'><span style='font-size:10.0pt;
+  font-family:Verdana;color:black'>Microsoft SOAP Toolkit 3.0<o:p></o:p></span></p>
+  </td>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin-bottom:12.0pt'><span style='font-size:10.0pt;
+  font-family:Verdana;color:black'>SOAP3\soapsdk.msi<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:4;mso-yfti-lastrow:yes'>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin-bottom:12.0pt'><span style='font-size:10.0pt;
+  font-family:Verdana;color:black'>Windows Installer 2.0<o:p></o:p></span></p>
+  </td>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin-bottom:12.0pt'><span style='font-size:10.0pt;
+  font-family:Verdana;color:black'>windowsinstaller\winnt\instmsiw.exe<o:p></o:p></span></p>
+  </td>
+ </tr>
+</table>
+
+<p><span style='font-size:10.0pt;font-family:Verdana;color:black'>If setup
+continues to report failures, even though the individual setups succeed, you
+can bypass the system component updates. Please note however, this is only
+advised if all required components are installed. Visual FoxPro will not
+function properly without these components.<o:p></o:p></span></p>
+
+<table class=MsoNormalTable border=1 cellspacing=3 cellpadding=0
+ style='mso-cellspacing:1.5pt;margin-left:.25in;background:white;border:solid #CCCCCC 1.0pt;
+ mso-border-alt:solid #CCCCCC .5pt'>
+ <tr style='mso-yfti-irow:0'>
+  <td valign=top style='border:none;background:#CCCCCC;padding:6.0pt .75pt 6.0pt 3.0pt'>
+  <p class=MsoNormal style='margin-bottom:12.0pt'><b><span style='font-size:
+  10.0pt;font-family:Verdana;color:black'>To bypass Prerequisites setup<o:p></o:p></span></b></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:1;mso-yfti-lastrow:yes'>
+  <td valign=top style='border:none;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='mso-margin-top-alt:auto;margin-bottom:6.0pt;
+  margin-left:24.0pt;text-indent:-.25in;mso-list:l1 level1 lfo2;tab-stops:list .5in'><![if !supportLists]><span
+  style='font-size:10.0pt;font-family:Verdana;mso-fareast-font-family:Verdana;
+  mso-bidi-font-family:Verdana;color:black'><span style='mso-list:Ignore'>1.<span
+  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span></span><![endif]><span style='font-size:10.0pt;font-family:
+  Verdana;color:black'>Insert the Visual FoxPro CD. <o:p></o:p></span></p>
+  <p class=MsoNormal style='mso-margin-top-alt:auto;margin-bottom:6.0pt;
+  margin-left:24.0pt;text-indent:-.25in;mso-list:l1 level1 lfo2;tab-stops:list .5in'><![if !supportLists]><span
+  style='font-size:10.0pt;font-family:Verdana;mso-fareast-font-family:Verdana;
+  mso-bidi-font-family:Verdana;color:black'><span style='mso-list:Ignore'>2.<span
+  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span></span><![endif]><span style='font-size:10.0pt;font-family:
+  Verdana;color:black'>Close any programs triggered by <span class=SpellE>autorun</span>.
+  <o:p></o:p></span></p>
+  <p class=MsoNormal style='mso-margin-top-alt:auto;margin-bottom:6.0pt;
+  margin-left:24.0pt;text-indent:-.25in;mso-list:l1 level1 lfo2;tab-stops:list .5in'><![if !supportLists]><span
+  style='font-size:10.0pt;font-family:Verdana;mso-fareast-font-family:Verdana;
+  mso-bidi-font-family:Verdana;color:black'><span style='mso-list:Ignore'>3.<span
+  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span></span><![endif]><span style='font-size:10.0pt;font-family:
+  Verdana;color:black'>From the <b>Start</b> menu, click <b>Run</b>.<o:p></o:p></span></p>
+  <p class=MsoNormal style='mso-margin-top-alt:auto;margin-bottom:6.0pt;
+  margin-left:24.0pt;text-indent:-.25in;mso-list:l1 level1 lfo2;tab-stops:list .5in'><![if !supportLists]><span
+  style='font-size:10.0pt;font-family:Verdana;mso-fareast-font-family:Verdana;
+  mso-bidi-font-family:Verdana;color:black'><span style='mso-list:Ignore'>4.<span
+  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span></span><![endif]><span style='font-size:10.0pt;font-family:
+  Verdana;color:black'>In the <b>Run</b> dialog box, type the following: <o:p></o:p></span></p>
+  <div>
+  <p class=MsoNormal style='mso-margin-top-alt:auto;margin-bottom:6.0pt;
+  margin-left:24.0pt'><i><span style='font-size:10.0pt;font-family:"Courier New";
+  color:#000066'>n</span></i><span style='font-size:10.0pt;font-family:"Courier New";
+  color:#000066'>:\Setup\Setup.exe /NO_BSLN_CHECK<o:p></o:p></span></p>
+  </div>
+  <p class=MsoNormal style='mso-margin-top-alt:auto;margin-bottom:6.0pt;
+  margin-left:24.0pt'><span style='font-size:10.0pt;font-family:Verdana;
+  color:black'><o:p>&nbsp;</o:p></span></p>
+  <div>
+  <p class=MsoNormal style='mso-margin-top-alt:auto;margin-bottom:6.0pt;
+  margin-left:24.0pt'><span style='font-size:10.0pt;font-family:Verdana;
+  color:black'>For example:<o:p></o:p></span></p>
+  </div>
+  <div>
+  <p class=MsoNormal style='mso-margin-top-alt:auto;margin-bottom:6.0pt;
+  margin-left:24.0pt'><span style='font-size:10.0pt;font-family:"Courier New";
+  color:#000066'>D:\Setup\Setup.exe /NO_BSLN_CHECK<o:p></o:p></span></p>
+  </div>
+  </td>
+ </tr>
+</table>
+
+<h2><span style='font-family:Verdana;color:black'>4.2. Uninstalling Baseline
+Components<o:p></o:p></span></h2>
+
+<p><span style='font-size:10.0pt;font-family:Verdana;color:black'>Uninstalling
+Visual FoxPro does not uninstall components installed by Prerequisites setup.
+For components that offer individual uninstall, use the <b>Add/Remove Programs</b>
+in the <b>Control Panel</b>.<o:p></o:p></span></p>
+
+</div>
+
+</body>
+
+</html>
